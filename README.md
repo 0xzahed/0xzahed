@@ -31,14 +31,8 @@ Platforms:    Hack The Box, Bugcrowd, HackerOne, TryHackMe
 
 ---
 
-### 📊 GitHub Stats (Real-Time)
+### 🧮 Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xzahed&theme=tokyonight" />
-  <br />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0xzahed&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0xzahed&theme=tokyonight" />
-  <br />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0xzahed&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0xzahed&theme=tokyonight&utcOffset=+6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=0xzahed&theme=discord&margin-w=15&margin-h=15&title=Stars,Commits,PullRequest,Issues,Repositories,Followers" />
 </p>
