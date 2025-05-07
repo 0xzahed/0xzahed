@@ -1,23 +1,31 @@
-<h1 align="center">0xzahed 👾</h1>
+<h1 align="center">Hey 👋, I'm Zahed</h1>
+<h3 align="center">🚀 Ethical Hacker | 🎯 Bug Bounty Hunter | 💻 CSE Final Year Student</h3>
+
+---
+
 <p align="center">
-  Ethical Hacking Enthusiast • Final Year CSE • Cyber Explorer
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=435&lines=Hacking+the+planet+...;Breaking+things+to+secure+them;Learning+%F0%9F%92%AA+One+exploit+at+a+time!" alt="Typing SVG" />
 </p>
 
 ---
 
-### ⚡ About Me
-- 🎓 BSc in Computer Science & Engineering (Final Year)
-- 🛡️ Learning Ethical Hacking & Web Security
-- 🐧 Linux explorer & open-source contributor
-- 🧠 Focused on CTFs, XSS, SQLi, and real-world attack vectors
-- 🌍 Building, breaking, and learning every day
+### 🕵️‍♂️ About Me
+
+- 🎓 Final Year CSE Student  
+- 💣 Actively Hunting Vulnerabilities (Bug Bounty)  
+- 🛠️ Building & Breaking Web Apps  
+- 🧠 Currently learning: Advanced XSS, Burp Suite, HTTP Smuggling  
+- 🎯 Goal: Hall of Fame in Top Platforms  
+- 💬 Ask me about: Recon, XSS, and Web Exploitation  
+- 📫 Reach me: zahed@protonmail.com  
+- 🌐 Portfolio: Coming soon...
 
 ---
 
-### 🧰 Tools & Skills
+### 🧰 Tools & Tech
 
 ```bash
-Languages:        Python | JavaScript | C | Bash | SQL
-Cyber Tools:      Burp Suite | Nmap | Metasploit | Wireshark | Dirb
-Dev Tools:        Git | VS Code | Postman | Linux (Kali, Ubuntu)
-Vulnerabilities:  XSS | SQLi | CSRF | LFI | RCE | OSINT
+Languages:    Python, JavaScript, Bash
+Web:          HTML, CSS, PHP, Django
+Tools:        Burp Suite, Nmap, FFUF, Subfinder, Amass, Git
+Platforms:    Hack The Box, Bugcrowd, HackerOne, TryHackMe
