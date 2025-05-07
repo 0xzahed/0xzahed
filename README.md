@@ -27,3 +27,14 @@ Languages:    Python, JavaScript, Bash
 Web:          HTML, CSS, PHP, Django
 Tools:        Burp Suite, Nmap, FFUF, Subfinder, Amass, Git
 Platforms:    Hack The Box, Bugcrowd, HackerOne, TryHackMe
+### 📈 Stats
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xzahed&theme=tokyonight" />
+  <br />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0xzahed&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0xzahed&theme=tokyonight" />
+  <br />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0xzahed&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0xzahed&theme=tokyonight&utcOffset=+6" />
+</p>
