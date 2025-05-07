@@ -1,5 +1,5 @@
 <h1 align="center">Hey 👋, I'm Zahed</h1>
-<h3 align="center">🚀 Ethical Hacker | 🎯 Bug Bounty Hunter | 💻 CSE Final Year Student</h3>
+<h3 align="center">🚀 Ethical Hacker | 🎯 Bug Bounty Hunter </h3>
 
 ---
 
@@ -11,13 +11,12 @@
 
 ### 🕵️‍♂️ About Me
 
-- 🎓 Final Year CSE Student  
 - 💣 Actively Hunting Vulnerabilities (Bug Bounty)  
 - 🛠️ Building & Breaking Web Apps  
 - 🧠 Currently learning: Advanced XSS, Burp Suite, HTTP Smuggling  
 - 🎯 Goal: Hall of Fame in Top Platforms  
 - 💬 Ask me about: Recon, XSS, and Web Exploitation  
-- 📫 Reach me: zahed@protonmail.com  
+- 📫 Reach me: 0xzahed@gmail.com  
 - 🌐 Portfolio: Coming soon...
 
 ---
