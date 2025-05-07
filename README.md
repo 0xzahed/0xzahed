@@ -17,7 +17,6 @@
 - 🎯 Goal: Hall of Fame in Top Platforms  
 - 💬 Ask me about: Recon, XSS, and Web Exploitation  
 - 📫 Reach me: 0xzahed@gmail.com  
-- 🌐 Portfolio: Coming soon...
 
 ---
 
