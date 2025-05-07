@@ -34,5 +34,6 @@ Platforms:    Hack The Box, Bugcrowd, HackerOne, TryHackMe
 ### 🧮 Stats
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=0xzahed&theme=discord&margin-w=15&margin-h=15&title=Stars,Commits,PullRequest,Issues,Repositories,Followers" />
+  <img src="https://github-profile-trophy.vercel.app/?username=0xzahed&theme=discord&title=Stars,Commits,PullRequest,Issues,Repositories,Followers" />
 </p>
+
