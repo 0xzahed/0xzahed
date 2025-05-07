@@ -27,3 +27,12 @@ Languages:    Python, JavaScript, Bash
 Web:          HTML, CSS, PHP, Django
 Tools:        Burp Suite, Nmap, FFUF, Subfinder, Amass, Git
 Platforms:    Hack The Box, Bugcrowd, HackerOne, TryHackMe
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&theme=tokyonight&hide_title=true" />
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=0xzahed&theme=tokyonight" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight" />
+</p>
