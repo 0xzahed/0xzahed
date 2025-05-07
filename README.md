@@ -1,7 +1,7 @@
 <!-- GitHub Profile README for 0xzahed -->
 
 <h1 align="center">Hi there 👋, I'm Zahed</h1>
-<h3 align="center">🚀 Final Year CSE Student | 👨‍💻 Ethical Hacking Learner | 🔐 Cybersecurity Enthusiast</h3>
+<h3 align="center">🚀| 👨‍💻 Ethical Hacking Learner | 🔐 Cybersecurity Enthusiast</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=16f7ef&lines=Final+Year+CSE+Student;Learning+Ethical+Hacking;Cybersecurity+is+my+playground;Always+Learning+%F0%9F%92%BB;Open+to+Collaboration+%F0%9F%9A%80" />
