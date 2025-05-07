@@ -13,10 +13,10 @@
 
 - 💣 Actively Hunting Vulnerabilities (Bug Bounty)  
 - 🛠️ Building & Breaking Web Apps  
-- 🧠 Currently learning: Advanced XSS, Burp Suite, HTTP Smuggling  
+- 🧠 Currently Learning: Advanced XSS, Burp Suite, HTTP Smuggling  
 - 🎯 Goal: Hall of Fame in Top Platforms  
-- 💬 Ask me about: Recon, XSS, and Web Exploitation  
-- 📫 Reach me: 0xzahed@gmail.com  
+- 💬 Ask Me About: Recon, XSS, and Web Exploitation  
+- 📫 Email: 0xzahed@gmail.com  
 
 ---
 
@@ -27,14 +27,3 @@ Languages:    Python, JavaScript, Bash
 Web:          HTML, CSS, PHP, Django
 Tools:        Burp Suite, Nmap, FFUF, Subfinder, Amass, Git
 Platforms:    Hack The Box, Bugcrowd, HackerOne, TryHackMe
-### 📈 Stats
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xzahed&theme=tokyonight" />
-  <br />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0xzahed&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0xzahed&theme=tokyonight" />
-  <br />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0xzahed&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0xzahed&theme=tokyonight&utcOffset=+6" />
-</p>
