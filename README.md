@@ -21,14 +21,14 @@
 ---
 
 ### 🧰 Tools & Tech
-
+```bash
 
 Languages:    Python, JavaScript, Bash
 Web:          HTML, CSS, PHP, Django
 Tools:        Burp Suite, Nmap, FFUF, Subfinder, Amass, Git
 Platforms:    Hack The Box, Bugcrowd, HackerOne, TryHackMe
 
-
+```
 ---
 
 ### 📊 Stats
