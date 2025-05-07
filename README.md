@@ -31,9 +31,10 @@ Platforms:    Hack The Box, Bugcrowd, HackerOne, TryHackMe
 
 ---
 
-### 🧮 Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=0xzahed&theme=discord&title=Stars,Commits,PullRequest,Issues,Repositories,Followers" />
+  <img src="https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&theme=radical" alt="stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=0xzahed&theme=radical" alt="streak" height="165" />
 </p>
 
