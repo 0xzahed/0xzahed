@@ -1,31 +1,19 @@
 # 👋 Hi, I'm Abu Zahed  
 
-💻 Software Developer | 🚀 Open Source Enthusiast | 🌱 Lifelong Learner  
-
-I enjoy building **scalable applications**, exploring **cloud & edge computing**, and diving into **AI/ML projects**.  
-Currently learning **bug bounty hunting & IoT security** 🔐.  
+💻 Software Developer | 🚀 Open Source Enthusiast  
 
 ---
 
-## 🔧 Tech Stack
-- **Languages**: JavaScript, Python, C, C++  
-- **Frameworks/Libraries**: React, Node.js, Express, Flutter  
-- **Databases**: MySQL, MongoDB  
-- **Tools**: Git, Docker, Linux, VS Code  
+## 📊 GitHub Stats  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&theme=tokyonight)  
+![GitHub Streak](https://streak-stats.demolab.com?user=0xzahed&theme=tokyonight)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight)  
 
 ---
 
-## 📊 GitHub Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight)
-![Streak](https://streak-stats.demolab.com?user=yourusername&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight)
+## 📌 Pinned Repositories  
+[![Repo1](https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=repo1&theme=tokyonight)](https://github.com/0xzahed/repo1)  
+[![Repo2](https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=repo2&theme=tokyonight)](https://github.com/0xzahed/repo2)  
 
 ---
-
-## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Zahed-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-Website-green)](https://yourportfolio.com)  
-📩 **Email:** your@email.com  
-
----
-⭐️ From [yourusername](https://github.com/yourusername)
+⭐️ From [0xzahed](https://github.com/0xzahed)
