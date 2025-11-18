@@ -22,7 +22,7 @@
 - 🛡 Learning **Web Security & Bug Bounty**
 - 🔍 Security Tools: **Burp Suite**
 - 🐧 OS: **Linux**
-- ✉️ Email: *(add your email)*
+- ✉️ Email: *zahed04x@gmaill.com*
 - 🌐 Portfolio: *(add your link)*
 
 ---
