@@ -1,15 +1,16 @@
-<h1 align="center">Hi 👋, I'm Abu Zahed</h1>
 
-<!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=28&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;Full+Stack+JavaScript+Developer;Web+Security+Learner;Bug+Bounty+Enthusiast;Linux+User+%26+Burp+Suite+Learner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=26&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=Hi 👋, I'm Abu Zahed" />
 </p>
 
-<!-- Description under animation -->
+<!-- Professional Description -->
 <p align="center">
-  Passionate MERN stack developer focused on building secure, scalable, and modern web applications.  
-  Exploring cybersecurity, bug bounty, and backend engineering to level up every day.
+  My goal is to excel as a front-end developer by utilizing my skills in HTML, CSS, JavaScript, Tailwind CSS, and React.js.  
+  I am dedicated to crafting responsive, user-friendly web interfaces that enhance both user experience and performance.  
+  With a strong foundation in modern web technologies and a collaborative mindset, I strive to contribute to impactful projects,  
+  support team growth, and drive digital innovation.
 </p>
+
 
 ---
 
