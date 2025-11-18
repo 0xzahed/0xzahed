@@ -22,17 +22,9 @@
 ## 🌐 FOLLOW ME ON SOCIALS
 
 <p align="left">
-  <a href="YOUR_LINKEDIN_LINK" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="40" />
-  </a>
-
-  <a href="YOUR_FACEBOOK_LINK" target="_blank">
-    <img src="https://skillicons.dev/icons?i=facebook" height="40" />
-  </a>
-
-  <a href="YOUR_DISCORD_LINK" target="_blank">
-    <img src="https://skillicons.dev/icons?i=discord" height="40" />
-  </a>
+  <a href="YOUR_LINKEDIN_LINK" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" height="40" /></a>
+  <a href="YOUR_FACEBOOK_LINK" target="_blank"><img src="https://skillicons.dev/icons?i=facebook" height="40" /></a>
+  <a href="YOUR_DISCORD_LINK" target="_blank"><img src="https://skillicons.dev/icons?i=discord" height="40" /></a>
 </p>
 
 ---
