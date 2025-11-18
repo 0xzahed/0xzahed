@@ -1,6 +1,8 @@
+<h1 align="center">Hi 👋, I'm Abu Zahed</h1>
 
+<!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=26&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=Hi 👋, I'm Abu Zahed" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=26&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=Hi,+I'm+Abu+Zahed" />
 </p>
 
 <!-- Professional Description -->
@@ -10,7 +12,6 @@
   With a strong foundation in modern web technologies and a collaborative mindset, I strive to contribute to impactful projects,  
   support team growth, and drive digital innovation.
 </p>
-
 
 ---
 
@@ -22,7 +23,7 @@
 - 🛡 Learning **Web Security & Bug Bounty**
 - 🔍 Security Tools: **Burp Suite**
 - 🐧 OS: **Linux**
-- ✉️ Email: *zahed04x@gmaill.com*
+- ✉️ Email: **zahed04x@gmail.com**
 - 🌐 Portfolio: *(add your link)*
 
 ---
@@ -51,7 +52,7 @@
 ### 🗄 Databases:
 ![DB](https://skillicons.dev/icons?i=mongodb,firebase)
 
-### 🔐 Security Tools (Working Icons):
+### 🔐 Security Tools:
 <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/burp-suite.svg" width="50" title="Burp Suite" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="50" title="Linux" />
 
@@ -74,21 +75,20 @@
 
 ## ⚡ Stats ⚡
 
-<!-- Contribution + Streaks -->
 <div align="center">
 
-  <!-- Total Contributions / Current Streak / Longest Streak -->
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" height="200" alt="streak stats"/>
+  <!-- Streak Stats -->
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="streak stats" />
 
   <br/><br/>
 
   <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="github stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="github stats" />
 
   <br/><br/>
 
   <!-- Most Used Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="languages" />
 
 </div>
 
