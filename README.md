@@ -70,13 +70,29 @@
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
-### 📈 GitHub Stats:
-| <img src="https://github-readme-stats.vercel.app/api?username=0xzahed&theme=swift&hide_border=true" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&theme=swift&hide_border=true&layout=compact" /> |
-|-------------|-------------|
+---
 
-### 🔥 Streaks & Repo Stats:
-| <img src="https://github-contributor-stats.vercel.app/api?username=0xzahed&limit=5&theme=swift&combine_all_yearly_contributions=true&hide_border=true" /> | <img src="https://streak-stats.demolab.com/?user=0xzahed&theme=swift" /> |
-|-------------|-------------|
+## ⚡ Stats ⚡
+
+<!-- Contribution + Streaks -->
+<div align="center">
+
+  <!-- Total Contributions / Current Streak / Longest Streak -->
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" height="200" alt="streak stats"/>
+
+  <br/><br/>
+
+  <!-- GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="github stats"/>
+
+  <br/><br/>
+
+  <!-- Most Used Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="languages"/>
+
+</div>
+
+---
 
 ---
 
