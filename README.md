@@ -93,14 +93,3 @@
 </div>
 
 ---
-
----
-
-## 💬 Random Dev Quote:
-<img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=light"/>
-
----
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=0xzahed&label=Profile%20views&color=2B90FF&style=flat" />
-</p>
