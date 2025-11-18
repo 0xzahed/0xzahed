@@ -1,21 +1,28 @@
 <h1 align="center">Hi 👋, I'm Abu Zahed</h1>
 
+<!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=25&pause=1000&color=2B90FF&center=true&vCenter=true&width=500&lines=MERN+Stack+Developer;Web+Security+Learner;Bug+Bounty+Enthusiast;JavaScript+%26+Node.js+Developer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=28&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;Full+Stack+JavaScript+Developer;Web+Security+Learner;Bug+Bounty+Enthusiast;Linux+User+%26+Burp+Suite+Learner" />
+</p>
+
+<!-- Description under animation -->
+<p align="center">
+  Passionate MERN stack developer focused on building secure, scalable, and modern web applications.  
+  Exploring cybersecurity, bug bounty, and backend engineering to level up every day.
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 - 👋 Hi, I’m **[@0xzahed](https://github.com/0xzahed)**
-- 💻 MERN Stack Developer
+- 💻 MERN Stack Developer  
 - 🎨 Frontend: **React.js, Tailwind CSS, JavaScript**
 - 🗄 Backend: **Node.js, Express.js, MongoDB, Firebase**
 - 🛡 Learning **Web Security & Bug Bounty**
 - 🔍 Security Tools: **Burp Suite**
-- 💻 Operating System: **Linux**
+- 🐧 OS: **Linux**
 - ✉️ Email: *(add your email)*
-- 🌐 Portfolio: *(add your portfolio link)*
+- 🌐 Portfolio: *(add your link)*
 
 ---
 
@@ -43,9 +50,9 @@
 ### 🗄 Databases:
 ![DB](https://skillicons.dev/icons?i=mongodb,firebase)
 
-### 🔐 Security Tools:
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="45" title="Linux" />
-<img src="https://raw.githubusercontent.com/AliasIO/wappalyzer/master/src/drivers/webextension/images/icons/Burp-Suite.svg" width="45" title="Burp Suite" />
+### 🔐 Security Tools (Working Icons):
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/burp-suite.svg" width="50" title="Burp Suite" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="50" title="Linux" />
 
 ### 🚀 Deployment:
 ![Deploy](https://skillicons.dev/icons?i=vercel,netlify,firebase)
@@ -78,5 +85,5 @@
 ---
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=0xzahed&label=Profile%20views&color=0e75b6&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=0xzahed&label=Profile%20views&color=2B90FF&style=flat" />
 </p>
