@@ -5,7 +5,7 @@
 
 <!-- Typing Animation: MERN Stack Developer -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=26&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;Frontend+%7C+Developer+%7C" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=26&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;Frontend+Developer+" />
 </p>
 <!-- Professional Description -->
 <p align="center">
