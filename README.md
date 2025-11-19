@@ -1,11 +1,11 @@
 ![Banner](https://raw.githubusercontent.com/0xzahed/0xzahed/main/banner.png)
 
 <!-- Name under Banner -->
-<h1 align="center">Abu Zahed</h1>
+<h1 align="center">I'm, Abu Zahed</h1>
 
 <!-- Typing Animation: MERN Stack Developer -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=26&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;Full+Stack+JavaScript+Developer;Frontend+%7C+Backend+%7C+API+Design" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=26&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;Frontend+%7C+Developer+%7C" />
 </p>
 <!-- Professional Description -->
 <p align="center">
