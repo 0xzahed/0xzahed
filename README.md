@@ -14,7 +14,7 @@
 ---
 
 ## 👨‍💻 About Me
-- 👋 Hi, I’m **[@0xzahed](https://github.com/0xzahed)**
+- 👋 Hi, I’m **[Zahed](https://github.com/0xzahed)**
 - 💻 MERN Stack Developer  
 - 🎨 Frontend: **React.js, Tailwind CSS, JavaScript**
 - 🗄 Backend: **Node.js, Express.js, MongoDB, Firebase**
