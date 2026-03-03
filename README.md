@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/0xzahed/0xzahed/main/banner.png)
+![Banner]([Linked In Cover (2).png](https://github.com/0xzahed/0xzahed/blob/main/Linked%20In%20Cover%20(2).png))
 
 <!-- Name under Banner -->
 <h1 align="center">I'm, Abu Zahed</h1>
