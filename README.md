@@ -80,7 +80,7 @@
 <div align="center">
 
   <!-- Streak Stats -->
-  <img src="https://streak-stats.demolab.com?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="streak stats" />
+  <img src="https://streak-stats.demolab.com/?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10&v=2" height="200" alt="streak stats" />
 
   <br/><br/>
 
