@@ -1,41 +1,43 @@
 ![Banner](https://github.com/0xzahed/0xzahed/blob/main/Linked%20In%20Cover%20(2).png)
 
 <!-- Name under Banner -->
-<h1 align="center">I'm, Abu Zahed</h1>
+<h1 align="center">I'm Abu Zahed — Software Engineer</h1>
 
-<!-- Typing Animation: MERN Stack Developer -->
+<!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=26&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;Frontend+Developer+" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=26&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=Software+Engineer;MERN+Stack+Developer;Bug+Bounty+Learner" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=0xzahed&color=2B90FF&style=flat" alt="profile views" />
 </p>
 <!-- Professional Description -->
 <p align="center">
-  My goal is to excel as a front-end developer by utilizing my skills in HTML, CSS, JavaScript, Tailwind CSS, and React.js.  
-  I am dedicated to crafting responsive, user-friendly web interfaces that enhance both user experience and performance.  
-  With a strong foundation in modern web technologies and a collaborative mindset, I strive to contribute to impactful projects,  
-  support team growth, and drive digital innovation.
+  Software Engineer focused on building responsive, user-friendly web applications with the MERN stack.  
+  Currently expanding into web security and bug bounty hunting with Burp Suite on Linux.  
+  I care about clean code, performance, and shipping products people enjoy using.
 </p>
 
 ---
 
 ## 👨‍💻 About Me
-- 👋 Hi, I’m **[Zahed](https://github.com/0xzahed)**
-- 💻 MERN Stack Developer  
-- 🎨 Frontend: **React.js, Tailwind CSS, JavaScript**
-- 🗄 Backend: **Node.js, Express.js, MongoDB, Firebase**
-- 🛡 Learning **Web Security & Bug Bounty**
-- 🔍 Security Tools: **Burp Suite**
-- 🐧 OS: **Linux**
+- 👋 Hi, I'm **[Zahed](https://github.com/0xzahed)** — Software Engineer from Dhaka, Bangladesh
+- 💻 MERN Stack: **React.js, Node.js, Express.js, MongoDB**
+- 🎨 Frontend: **React.js, Next.js, Tailwind CSS, JavaScript/TypeScript**
+- 🛡 Currently learning: **Web Security & Bug Bounty** (Burp Suite, Linux)
+- 🔭 Focus: clean architecture, performance, responsive UX
 - ✉️ Email: **zahed04x@gmail.com**
 - 🌐 Portfolio: **[www.0xzahed.me](https://www.0xzahed.me)**
 
 ---
 
-## 🌐 FOLLOW ME ON SOCIALS
+## 🌐 Connect With Me
 
 <p align="left">
-  <a href="YOUR_LINKEDIN_LINK" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" height="40" /></a>
-  <a href="YOUR_FACEBOOK_LINK" target="_blank"><img src="https://skillicons.dev/icons?i=facebook" height="40" /></a>
-  <a href="YOUR_DISCORD_LINK" target="_blank"><img src="https://skillicons.dev/icons?i=discord" height="40" /></a>
+  <a href="https://www.linkedin.com/in/abu-zahed-1954a7242" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/0xzahed" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://www.0xzahed.me" target="_blank"><img src="https://img.shields.io/badge/Portfolio-2B90FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:zahed04x@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
 ---
@@ -43,13 +45,13 @@
 ## 🛠 TECHNOLOGY STACK
 
 ### 🔤 Languages:
-![Languages](https://skillicons.dev/icons?i=html,css,js,python,c,cpp)
+![Languages](https://skillicons.dev/icons?i=html,css,js,ts,python,c,cpp)
 
 ### 🎨 CSS Frameworks:
 ![CSS](https://skillicons.dev/icons?i=tailwind,bootstrap)
 
 ### ⚛ JavaScript Frameworks:
-![Frameworks](https://skillicons.dev/icons?i=react,redux,nodejs,express)
+![Frameworks](https://skillicons.dev/icons?i=react,nextjs,redux,nodejs,express)
 
 ### 🗄 Databases:
 ![DB](https://skillicons.dev/icons?i=mongodb,firebase)
@@ -97,11 +99,6 @@
 
   <!-- Most Used Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="languages" />
-
-  <br/><br/>
-
-  <!-- Trophies (rank: C → B → A → AA → AAA → S → SS → SSS, grows with real activity) -->
-  <img src="https://github-profile-trophy.vercel.app/?username=0xzahed&theme=tokyonight&column=6&margin-w=8" alt="trophies" />
 
 </div>
 
