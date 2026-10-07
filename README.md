@@ -68,15 +68,6 @@
 
 ## 📊 GitHub Statistics & Analysis
 
-### ✨ 3D Contribution Skyline:
-<p align="center">
-  <a href="https://www.0xzahed.me">
-    <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/main/skyline-preview.svg" alt="Contribution Skyline preview — click for live demo" />
-  </a>
-  <br />
-  <sub>Live interactive version (2D heatmap ↔ 3D skyline, drag to orbit) portfolio-te ache. Profile README-te React/Canvas চলে না, তাই এখানে preview + link দেওয়া।</sub>
-</p>
-
 ### 🐍 Contribution Snake:
 <p align="center">
   <picture>
