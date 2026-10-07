@@ -86,7 +86,7 @@
 <div align="center">
 
   <!-- Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="streak stats" />
+  <img src="https://streak-stats.demolab.com?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="streak stats" />
 
   <br/><br/>
 
@@ -97,6 +97,11 @@
 
   <!-- Most Used Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="languages" />
+
+  <br/><br/>
+
+  <!-- Trophies (rank: C → B → A → AA → AAA → S → SS → SSS, grows with real activity) -->
+  <img src="https://github-profile-trophy.vercel.app/?username=0xzahed&theme=tokyonight&column=6&margin-w=8" alt="trophies" />
 
 </div>
 
