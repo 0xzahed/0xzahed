@@ -26,7 +26,7 @@
 - 🔍 Security Tools: **Burp Suite**
 - 🐧 OS: **Linux**
 - ✉️ Email: **zahed04x@gmail.com**
-- 🌐 Portfolio: *(add your link)*
+- 🌐 Portfolio: **[www.0xzahed.me](https://www.0xzahed.me)**
 
 ---
 
@@ -70,7 +70,18 @@
 
 ### 🐍 Contribution Snake:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake.svg" alt="Contribution snake" />
+  </picture>
+</p>
+
+### ✨ 3D Contribution Skyline:
+<p align="center">
+  <a href="https://www.0xzahed.me">Live interactive skyline — portfolio-te 2D heatmap / 3D skyline</a>
+  <br />
+  <sub>Note: GitHub profile README-তে React/Canvas চলে না, তাই interactive version portfolio-তে থাকে। নিচের Snake SVG-টা profile-তেই auto-update হবে।</sub>
 </p>
 
 ---
