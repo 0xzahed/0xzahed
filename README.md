@@ -74,7 +74,7 @@ zahed:
   <tr>
     <td valign="top"><b>🔐 Security</b></td>
     <td>
-      <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/burp-suite.svg" width="40" title="Burp Suite" />&nbsp;&nbsp;
+      <img src="https://cdn.simpleicons.org/burpsuite/FF6633" width="40" title="Burp Suite" />&nbsp;&nbsp;
       <img src="https://skillicons.dev/icons?i=linux&theme=dark" />
     </td>
   </tr>
