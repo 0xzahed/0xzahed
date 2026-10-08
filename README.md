@@ -95,13 +95,15 @@
 
 ## ⚡ Stats ⚡
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" width="49%" alt="streak stats" />
-  <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg" width="49%" alt="github stats" />
-</p>
+<table align="center">
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" height="195" alt="streak stats" /></td>
+    <td><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg" height="195" alt="github stats" /></td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" width="49%" alt="languages" />
+  <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" width="340" alt="languages" />
 </p>
 
 <p align="center"><sub>Auto-updates daily via GitHub Action.</sub></p>
