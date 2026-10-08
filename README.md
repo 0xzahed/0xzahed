@@ -1,5 +1,4 @@
 ![Banner](https://github.com/0xzahed/0xzahed/blob/main/Linked%20In%20Cover%20(2).png)
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2B90FF,100:8E54E9&height=90&section=header" />
 
 <h1 align="center">I'm Abu Zahed — Software Engineer</h1>
 
@@ -8,8 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=0xzahed&color=2B90FF&style=for-the-badge" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/0xzahed?style=for-the-badge&color=2B90FF&labelColor=0D1117" alt="followers" />
+  <img src="https://komarev.com/ghpvc/?username=0xzahed&color=2B90FF&style=flat" alt="profile views" />
 </p>
 
 <p align="center">
@@ -18,28 +16,18 @@
   I care about clean code, performance, and shipping products people enjoy using.
 </p>
 
-<p align="center">
-  <a href="#-about-me">About</a> •
-  <a href="#-connect-with-me">Connect</a> •
-  <a href="#-technology-stack">Stack</a> •
-  <a href="#-github-statistics">Stats</a>
-</p>
-
-<br/>
+---
 
 ## 👨‍💻 About Me
+- 👋 Hi, I'm **[Zahed](https://github.com/0xzahed)** — Software Engineer from Dhaka, Bangladesh
+- 💻 MERN Stack: **React.js, Node.js, Express.js, MongoDB**
+- 🎨 Frontend: **React.js, Next.js, Tailwind CSS, JavaScript/TypeScript**
+- 🛡 Currently learning: **Web Security & Bug Bounty** (Burp Suite, Linux)
+- 🔭 Focus: clean architecture, performance, responsive UX
+- ✉️ Email: **zahed04x@gmail.com**
+- 🌐 Portfolio: **[www.0xzahed.me](https://www.0xzahed.me)**
 
-```yaml
-zahed:
-  role: Software Engineer
-  base: Dhaka, Bangladesh
-  stack: [React.js, Next.js, Node.js, Express.js, MongoDB]
-  learning: [Web Security, Bug Bounty Hunting]
-  focus: [clean architecture, performance, responsive UX]
-  portfolio: www.0xzahed.me
-```
-
-<br/>
+---
 
 ## 🌐 Connect With Me
 
@@ -50,61 +38,62 @@ zahed:
   <a href="mailto:zahed04x@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
-<br/>
+---
 
 ## 🛠 Technology Stack
 
 <table>
   <tr>
-    <td valign="top" width="140"><b>🔤 Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=html,css,js,ts,python,c,cpp&theme=dark" /></td>
+    <td valign="top" width="150"><b>🔤 Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=html,css,js,ts,python,c,cpp" /></td>
   </tr>
   <tr>
     <td valign="top"><b>🎨 CSS / Frameworks</b></td>
-    <td><img src="https://skillicons.dev/icons?i=tailwind,bootstrap&theme=dark" /></td>
+    <td><img src="https://skillicons.dev/icons?i=tailwind,bootstrap" /></td>
   </tr>
   <tr>
     <td valign="top"><b>⚛ JS Frameworks</b></td>
-    <td><img src="https://skillicons.dev/icons?i=react,nextjs,redux,nodejs,express&theme=dark" /></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nextjs,redux,nodejs,express" /></td>
   </tr>
   <tr>
     <td valign="top"><b>🗄 Databases</b></td>
-    <td><img src="https://skillicons.dev/icons?i=mongodb,firebase&theme=dark" /></td>
+    <td><img src="https://skillicons.dev/icons?i=mongodb,firebase" /></td>
   </tr>
   <tr>
     <td valign="top"><b>🔐 Security</b></td>
     <td>
-      <img src="https://cdn.simpleicons.org/burpsuite/FF6633" width="40" title="Burp Suite" />&nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=linux&theme=dark" />
+      <img src="https://cdn.simpleicons.org/burpsuite" width="40" title="Burp Suite" />&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=linux" />
     </td>
   </tr>
   <tr>
     <td valign="top"><b>🚀 Deployment</b></td>
-    <td><img src="https://skillicons.dev/icons?i=vercel,netlify,firebase&theme=dark" /></td>
+    <td><img src="https://skillicons.dev/icons?i=vercel,netlify,firebase" /></td>
   </tr>
   <tr>
     <td valign="top"><b>🔧 Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux&theme=dark" /></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux" /></td>
   </tr>
 </table>
 
-<br/>
+---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Statistics & Analysis
 
 ### 🐍 Contribution Snake
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake.svg" alt="Contribution snake" width="100%" />
+    <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake.svg" alt="Contribution snake" />
   </picture>
+  <br />
+  <sub>Auto-updates daily via GitHub Action.</sub>
 </p>
 
-<br/>
+---
 
-### ⚡ Overview
+## ⚡ Stats ⚡
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" width="49%" alt="streak stats" />
@@ -115,6 +104,6 @@ zahed:
   <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" width="49%" alt="languages" />
 </p>
 
-<p align="center"><sub>🔄 Snake &amp; stats auto-update daily via GitHub Action.</sub></p>
+<p align="center"><sub>Auto-updates daily via GitHub Action.</sub></p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E54E9,100:2B90FF&height=90&section=footer" />
+---
