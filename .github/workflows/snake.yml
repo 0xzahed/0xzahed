@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Contribution Snake & Stats
 
 on:
   schedule:
@@ -22,6 +22,12 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark&color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: Fetch GitHub stats SVGs
+        run: |
+          curl -fsSL "https://streak-stats.demolab.com?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10" -o dist/streak-stats.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" -o dist/github-stats.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" -o dist/top-langs.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

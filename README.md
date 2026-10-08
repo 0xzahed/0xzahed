@@ -88,17 +88,20 @@
 <div align="center">
 
   <!-- Streak Stats -->
-  <img src="https://streak-stats.demolab.com?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="streak stats" />
+  <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" height="200" alt="streak stats" />
 
   <br/><br/>
 
   <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="github stats" />
+  <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg" height="200" alt="github stats" />
 
   <br/><br/>
 
   <!-- Most Used Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="languages" />
+  <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" height="200" alt="languages" />
+
+  <br />
+  <sub>Auto-updates daily via GitHub Action.</sub>
 
 </div>
 
