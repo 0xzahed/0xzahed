@@ -70,12 +70,12 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <br/>
 
-<img height="180" src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg" alt="github stats" />
-<img height="180" src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" alt="top languages" />
+<img height="180" src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg?v=2" alt="github stats" />
+<img height="180" src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg?v=2" alt="top languages" />
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" alt="streak stats" />
+<img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg?v=2" alt="streak stats" />
 
 </div>
 
@@ -103,7 +103,7 @@ star     morluto/rea                        10d ago
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake-dark.svg" alt="snake" />
+<img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake-dark.svg?v=2" alt="snake" />
 
 </div>
 
