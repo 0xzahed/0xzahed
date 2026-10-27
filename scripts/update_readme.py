@@ -4,6 +4,7 @@ import json
 import os
 import re
 import urllib.request
+from urllib.parse import quote
 from datetime import datetime, timezone
 
 USER = "0xzahed"
@@ -32,14 +33,42 @@ def link(repo):
     return f"[{repo.split('/')[-1]}](https://github.com/{repo})"
 
 
+LANG_COLORS = {
+    "TypeScript": "3178C6", "JavaScript": "F7DF1E", "Python": "3776AB", "HTML": "E34F26",
+    "Dart": "0175C2", "Go": "00ADD8", "EJS": "A91E50", "CSS": "1572B6",
+}
+
+
+def badge(label, message, color, logo=""):
+    esc = lambda v: quote(v.replace("-", "--").replace("_", "__"), safe="")
+    url = f"https://img.shields.io/badge/{esc(label)}-{esc(message)}-{color}?style=flat-square"
+    return f'<img src="{url}{"&logo=" + logo if logo else ""}" alt="{label}" />'
+
+
+def card(r):
+    desc = (r["description"] or "").strip() or "Work in progress"
+    lang = r["language"]
+    tags = [badge("updated", ago(r["pushed_at"]), "2B90FF")]
+    if lang:
+        tags.insert(0, badge("", lang, LANG_COLORS.get(lang, "555555")))
+    if r["stargazers_count"]:
+        tags.append(badge("stars", str(r["stargazers_count"]), "E3B341", "github"))
+    site = r.get("homepage")
+    links = f'<a href="{r["html_url"]}">Repo</a>' + (f' · <a href="{site}">Live</a>' if site else "")
+    return (
+        f'<td valign="top" width="50%">'
+        f'<h3>📁 <a href="{r["html_url"]}">{r["name"]}</a></h3>'
+        f"<p>{desc}</p><p>{' '.join(tags)}</p><sub>{links}</sub></td>"
+    )
+
+
 def latest_repos(repos, n=6):
     picked = [r for r in repos if not r["fork"] and not r["archived"] and r["name"] not in EXCLUDE][:n]
-    rows = ["| Project | Stack | Updated |", "|---|---|---|"]
-    for r in picked:
-        desc = (r["description"] or "").strip()
-        name = f"**[{r['name']}]({r['html_url']})**" + (f"<br/><sub>{desc}</sub>" if desc else "")
-        rows.append(f"| {name} | {r['language'] or '—'} | {ago(r['pushed_at'])} |")
-    return "\n".join(rows)
+    cards = [card(r) for r in picked]
+    if len(cards) % 2:
+        cards.append('<td width="50%"></td>')
+    rows = [f"  <tr>{cards[i]}{cards[i + 1]}</tr>" for i in range(0, len(cards), 2)]
+    return "<table>\n" + "\n".join(rows) + "\n</table>"
 
 
 def activity(events, n=8):

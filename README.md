@@ -18,7 +18,7 @@
 
 <p align="center">
 <!--OVERVIEW:START-->
-📦 **104** public repos · 👥 **8** followers · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)<br/><sub>Last refreshed: 2026-10-27 05:42 UTC</sub>
+📦 **104** public repos · 👥 **8** followers · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)<br/><sub>Last refreshed: 2026-10-27 08:26 UTC</sub>
 <!--OVERVIEW:END-->
 </p>
 
@@ -38,17 +38,14 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 
 ---
 
-## 🚀 Latest Projects <sub>(auto-updated)</sub>
+## 🚀 Featured Projects <sub>(auto-updated)</sub>
 
 <!--PROJECTS:START-->
-| Project | Stack | Updated |
-|---|---|---|
-| **[portfolio](https://github.com/0xzahed/portfolio)** | TypeScript | 9d ago |
-| **[restaruant](https://github.com/0xzahed/restaruant)** | EJS | 16d ago |
-| **[banglacaption](https://github.com/0xzahed/banglacaption)** | TypeScript | 18d ago |
-| **[leadghar](https://github.com/0xzahed/leadghar)** | TypeScript | 18d ago |
-| **[travelbook](https://github.com/0xzahed/travelbook)** | TypeScript | 18d ago |
-| **[clinicq](https://github.com/0xzahed/clinicq)** | TypeScript | 18d ago |
+<table>
+  <tr><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/portfolio">portfolio</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-9d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/portfolio">Repo</a></sub></td><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/restaruant">restaruant</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-EJS-A91E50?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-16d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/restaruant">Repo</a></sub></td></tr>
+  <tr><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/banglacaption">banglacaption</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/banglacaption">Repo</a></sub></td><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/leadghar">leadghar</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/leadghar">Repo</a></sub></td></tr>
+  <tr><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/travelbook">travelbook</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/travelbook">Repo</a></sub></td><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/clinicq">clinicq</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/clinicq">Repo</a></sub></td></tr>
+</table>
 <!--PROJECTS:END-->
 
 ---
