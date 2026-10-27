@@ -39,18 +39,18 @@ def gql(query):
         return json.load(res)["data"]["user"]
 
 
-def total_contributions(created_year):
-    """All-time contributions (public + private) since the account was created."""
+def yearly_contributions(created_year):
+    """Per-year contributions (public + private) since the account was created."""
     now = datetime.now(timezone.utc)
-    total = 0
+    years = {}
     for y in range(created_year, now.year + 1):
         end = now.strftime("%Y-%m-%dT%H:%M:%SZ") if y == now.year else f"{y}-12-31T23:59:59Z"
         u = gql(
             f'{{user(login:"{USER}"){{contributionsCollection(from:"{y}-01-01T00:00:00Z",to:"{end}")'
             "{contributionCalendar{totalContributions}}}}"
         )
-        total += u["contributionsCollection"]["contributionCalendar"]["totalContributions"]
-    return total
+        years[y] = u["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+    return years
 
 
 def current_streak():
@@ -82,6 +82,12 @@ def language_share(repos, top=4):
                 sizes[lang] = sizes.get(lang, 0) + n
     total = sum(sizes.values()) or 1
     return [(k, v / total * 100) for k, v in sorted(sizes.items(), key=lambda x: -x[1])[:top]]
+
+
+def yearly_block(years):
+    peak = max(years.values()) or 1
+    lines = [f"{y}  {'█' * max(1, round(n / peak * 24)) if n else '':<24} {n:>5,}" for y, n in sorted(years.items(), reverse=True)]
+    return "```text\n" + "\n".join(lines) + "\n```"
 
 
 def ago(iso):
@@ -152,10 +158,12 @@ def main():
     user = get(f"/users/{USER}")
     repos = get(f"/users/{USER}/repos?per_page=100&sort=pushed&type=owner")
     events = get(f"/users/{USER}/events/public?per_page=50")
-    total = total_contributions(int(user["created_at"][:4]))
+    years = yearly_contributions(int(user["created_at"][:4]))
+    total = sum(years.values())
     with open("README.md", encoding="utf-8") as f:
         text = f.read()
     text = replace(text, "STATS", stats_block(user, repos, total, current_streak(), language_share(repos)))
+    text = replace(text, "YEARLY", yearly_block(years))
     text = replace(text, "PROJECTS", projects_block(repos))
     text = replace(text, "ACTIVITY", activity_block(events))
     with open("README.md", "w", encoding="utf-8") as f:

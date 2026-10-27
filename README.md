@@ -68,7 +68,28 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 | contributions | day streak | repos | followers |
 <!--STATS:END-->
 
+<br/>
+
+<img height="180" src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg" alt="github stats" />
+<img height="180" src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" alt="top languages" />
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" alt="streak stats" />
+
 </div>
+
+### `root@zahed:~$ git log --yearly`
+
+<!--YEARLY:START-->
+```text
+2026  ████████████████████████ 3,540
+2025  █                          165
+2024  █                           56
+2023  █                           29
+2022  █                            1
+```
+<!--YEARLY:END-->
 
 ### `root@zahed:~$ tail activity.log`
 
