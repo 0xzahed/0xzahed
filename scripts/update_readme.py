@@ -17,7 +17,7 @@ BLURBS = {
     "clinicq": "Clinic queue system",
     "restaruant": "Restaurant web app",
 }
-NOT_LANGS = {"Makefile", "Jupyter Notebook", "Dockerfile", "Shell", "Batchfile"}
+NOT_LANGS = {"Makefile", "Jupyter Notebook", "Dockerfile", "Shell", "Batchfile", "Blade"}
 API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
@@ -72,7 +72,7 @@ def current_streak():
     return streak
 
 
-def language_share(repos, top=5):
+def language_share(repos, top=4):
     sizes = {}
     for r in repos:
         if r["fork"] or r["name"] in EXCLUDE:
@@ -102,7 +102,7 @@ def stats_block(user, repos, total, streak, langs):
              (str(user["public_repos"]), "repos"), (str(user["followers"]), "followers")]
     head = "| " + " | ".join(f"**{v}**" for v, _ in cells) + " |"
     sub = "| " + " | ".join(l for _, l in cells) + " |"
-    table = [sub, "|" + ":-:|" * 4, head]  # markdown needs a header row first
+    table = [head, "|" + ":-:|" * 4, sub]  # numbers on top, labels below
     return "\n".join(lines) + "\n\n" + "\n".join(table)
 
 

@@ -57,16 +57,15 @@ status     : building something cool... ▮
 
 <!--STATS:START-->
 ```text
-Python       █████████░░░░░░░░░░░  46%
-JavaScript   █████░░░░░░░░░░░░░░░  26%
-TypeScript   ███░░░░░░░░░░░░░░░░░  13%
+Python       ██████████░░░░░░░░░░  48%
+JavaScript   █████░░░░░░░░░░░░░░░  27%
+TypeScript   ███░░░░░░░░░░░░░░░░░  14%
 CSS          █░░░░░░░░░░░░░░░░░░░   4%
-Blade        █░░░░░░░░░░░░░░░░░░░   4%
 ```
 
-| contributions | day streak | repos | followers |
-|:-:|:-:|:-:|:-:|
 | **3,790** | **3** | **104** | **8** |
+|:-:|:-:|:-:|:-:|
+| contributions | day streak | repos | followers |
 <!--STATS:END-->
 
 </div>
