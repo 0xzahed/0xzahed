@@ -18,7 +18,7 @@
 
 <p align="center">
 <!--OVERVIEW:START-->
-📦 **104** public repos · 👥 **8** followers · 🔥 **3,786** contributions · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)
+📦 **104** public repos · 👥 **8** followers · 🔥 **3,787** contributions · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)
 <!--OVERVIEW:END-->
 </p>
 
@@ -41,11 +41,14 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 ## 🚀 Featured Projects
 
 <!--PROJECTS:START-->
-<table width="100%">
-  <tr><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/portfolio">📁 portfolio</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-9d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/portfolio">Repository</a></sub></td><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/restaruant">📁 restaruant</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-EJS-A91E50?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-17d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/restaruant">Repository</a></sub></td></tr>
-  <tr><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/banglacaption">📁 banglacaption</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/banglacaption">Repository</a></sub></td><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/leadghar">📁 leadghar</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/leadghar">Repository</a></sub></td></tr>
-  <tr><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/travelbook">📁 travelbook</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/travelbook">Repository</a></sub></td><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/clinicq">📁 clinicq</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/clinicq">Repository</a></sub></td></tr>
-</table>
+<p align="center">
+<a href="https://github.com/0xzahed/portfolio"><img width="49%" alt="portfolio" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=portfolio&theme=github_dark&border_radius=10&show_owner=false" /></a>
+<a href="https://github.com/0xzahed/restaruant"><img width="49%" alt="restaruant" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=restaruant&theme=github_dark&border_radius=10&show_owner=false" /></a>
+<a href="https://github.com/0xzahed/banglacaption"><img width="49%" alt="banglacaption" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=banglacaption&theme=github_dark&border_radius=10&show_owner=false" /></a>
+<a href="https://github.com/0xzahed/leadghar"><img width="49%" alt="leadghar" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=leadghar&theme=github_dark&border_radius=10&show_owner=false" /></a>
+<a href="https://github.com/0xzahed/travelbook"><img width="49%" alt="travelbook" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=travelbook&theme=github_dark&border_radius=10&show_owner=false" /></a>
+<a href="https://github.com/0xzahed/clinicq"><img width="49%" alt="clinicq" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=clinicq&theme=github_dark&border_radius=10&show_owner=false" /></a>
+</p>
 <!--PROJECTS:END-->
 
 ---
@@ -112,11 +115,11 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 ## 📈 Contributions
 
 <!--CONTRIB:START-->
-<p align="center"><img src="https://img.shields.io/badge/all--time%20contributions-3%2C786-2B90FF?style=flat-square&logo=github" alt="all-time contributions" /> <img src="https://img.shields.io/badge/2026-3%2C535-3C7DD9?style=flat-square" alt="2026" /> <img src="https://img.shields.io/badge/active%20since-2022-64A1F4?style=flat-square" alt="active since" /></p>
+<p align="center"><img src="https://img.shields.io/badge/all--time%20contributions-3%2C787-2B90FF?style=flat-square&logo=github" alt="all-time contributions" /> <img src="https://img.shields.io/badge/2026-3%2C536-3C7DD9?style=flat-square" alt="2026" /> <img src="https://img.shields.io/badge/active%20since-2022-64A1F4?style=flat-square" alt="active since" /></p>
 
 | Year | Contributions | |
 |---|---:|:--|
-| 2026 | 3,535 | `████████████████████████` |
+| 2026 | 3,536 | `████████████████████████` |
 | 2025 | 165 | `█` |
 | 2024 | 56 | `█` |
 | 2023 | 29 | `█` |
