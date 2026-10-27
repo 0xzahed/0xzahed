@@ -18,7 +18,7 @@
 
 <p align="center">
 <!--OVERVIEW:START-->
-📦 **104** public repos · 👥 **8** followers · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)<br/><sub>Last refreshed: 2026-10-27 08:26 UTC</sub>
+📦 **104** public repos · 👥 **8** followers · 🔥 **3,782** contributions · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)<br/><sub>Last refreshed: 2026-10-27 09:58 UTC</sub>
 <!--OVERVIEW:END-->
 </p>
 
@@ -42,9 +42,9 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 
 <!--PROJECTS:START-->
 <table>
-  <tr><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/portfolio">portfolio</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-9d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/portfolio">Repo</a></sub></td><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/restaruant">restaruant</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-EJS-A91E50?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-16d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/restaruant">Repo</a></sub></td></tr>
-  <tr><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/banglacaption">banglacaption</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/banglacaption">Repo</a></sub></td><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/leadghar">leadghar</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/leadghar">Repo</a></sub></td></tr>
-  <tr><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/travelbook">travelbook</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/travelbook">Repo</a></sub></td><td valign="top" width="50%"><h3>📁 <a href="https://github.com/0xzahed/clinicq">clinicq</a></h3><p>Work in progress</p><p><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /></p><sub><a href="https://github.com/0xzahed/clinicq">Repo</a></sub></td></tr>
+  <tr><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/portfolio">📁 portfolio</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-9d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/portfolio">Repository</a></sub></td><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/restaruant">📁 restaruant</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-EJS-A91E50?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-17d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/restaruant">Repository</a></sub></td></tr>
+  <tr><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/banglacaption">📁 banglacaption</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/banglacaption">Repository</a></sub></td><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/leadghar">📁 leadghar</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/leadghar">Repository</a></sub></td></tr>
+  <tr><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/travelbook">📁 travelbook</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/travelbook">Repository</a></sub></td><td valign="top" width="50%"><b><a href="https://github.com/0xzahed/clinicq">📁 clinicq</a></b><br/><sub>Work in progress</sub><br/><br/><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/updated-18d%20ago-2B90FF?style=flat-square" alt="updated" /><br/><sub><a href="https://github.com/0xzahed/clinicq">Repository</a></sub></td></tr>
 </table>
 <!--PROJECTS:END-->
 
@@ -111,19 +111,29 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 
 ---
 
-## ⚡ Stats ⚡
+## 📈 Contributions <sub>(public + private, auto-updated)</sub>
+
+<!--CONTRIB:START-->
+<p align="center"><img src="https://img.shields.io/badge/all--time%20contributions-3%2C782-2B90FF?style=flat-square&logo=github" alt="all-time contributions" /> <img src="https://img.shields.io/badge/2026-3%2C531-3C7DD9?style=flat-square" alt="2026" /> <img src="https://img.shields.io/badge/active%20since-2022-64A1F4?style=flat-square" alt="active since" /></p>
+
+| Year | Contributions | |
+|---|---:|:--|
+| 2026 | 3,531 | `████████████████████████` |
+| 2025 | 165 | `█` |
+| 2024 | 56 | `█` |
+| 2023 | 29 | `█` |
+| 2022 | 1 | `█` |
+<!--CONTRIB:END-->
+
+---
+
+## ⚡ GitHub Stats
 
 <table align="center">
   <tr>
-    <td><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" height="195" alt="streak stats" /></td>
-    <td><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg" height="195" alt="github stats" /></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" height="195" alt="streak stats" /></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" height="195" alt="top languages" /></td>
   </tr>
 </table>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" width="340" alt="languages" />
-</p>
-
 <p align="center"><sub>Auto-updates daily via GitHub Action.</sub></p>
-
----

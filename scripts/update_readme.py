@@ -21,6 +21,47 @@ def get(path):
         return json.load(res)
 
 
+def gql(query):
+    req = urllib.request.Request(
+        API + "/graphql", data=json.dumps({"query": query}).encode(),
+        headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"},
+    )
+    with urllib.request.urlopen(req, timeout=30) as res:
+        return json.load(res)["data"]["user"]
+
+
+def contributions(created_year):
+    """Per-year totals (public + private) since the account was created."""
+    now = datetime.now(timezone.utc)
+    years = {}
+    for y in range(created_year, now.year + 1):
+        end = now.strftime("%Y-%m-%dT%H:%M:%SZ") if y == now.year else f"{y}-12-31T23:59:59Z"
+        u = gql(
+            f'{{user(login:"{USER}"){{contributionsCollection(from:"{y}-01-01T00:00:00Z",to:"{end}")'
+            "{totalCommitContributions restrictedContributionsCount "
+            "contributionCalendar{totalContributions}}}}"
+        )["contributionsCollection"]
+        years[y] = (u["contributionCalendar"]["totalContributions"], u["totalCommitContributions"] + u["restrictedContributionsCount"])
+    return years
+
+
+def contrib_section(years):
+    total = sum(v[0] for v in years.values())
+    peak = max(v[0] for v in years.values()) or 1
+    this_year = years[max(years)][0]
+    top = (
+        f"<p align=\"center\">{badge('all-time contributions', f'{total:,}', '2B90FF', 'github')} "
+        f"{badge(f'{max(years)}', f'{this_year:,}', '3C7DD9')} "
+        f"{badge('active since', str(min(years)), '64A1F4')}</p>"
+    )
+    rows = ["| Year | Contributions | |", "|---|---:|:--|"]
+    for y in sorted(years, reverse=True):
+        n = years[y][0]
+        bar = "█" * max(1, round(n / peak * 24)) if n else ""
+        rows.append(f"| {y} | {n:,} | `{bar}` |")
+    return top + "\n\n" + "\n".join(rows)
+
+
 def ago(iso):
     secs = (datetime.now(timezone.utc) - datetime.fromisoformat(iso.replace("Z", "+00:00"))).total_seconds()
     for unit, size in (("d", 86400), ("h", 3600), ("m", 60)):
@@ -47,18 +88,16 @@ def badge(label, message, color, logo=""):
 
 def card(r):
     desc = (r["description"] or "").strip() or "Work in progress"
-    lang = r["language"]
-    tags = [badge("updated", ago(r["pushed_at"]), "2B90FF")]
-    if lang:
-        tags.insert(0, badge("", lang, LANG_COLORS.get(lang, "555555")))
+    tags = [badge("", r["language"], LANG_COLORS.get(r["language"], "555555"))] if r["language"] else []
+    tags.append(badge("updated", ago(r["pushed_at"]), "2B90FF"))
     if r["stargazers_count"]:
         tags.append(badge("stars", str(r["stargazers_count"]), "E3B341", "github"))
     site = r.get("homepage")
-    links = f'<a href="{r["html_url"]}">Repo</a>' + (f' · <a href="{site}">Live</a>' if site else "")
+    links = f'<a href="{r["html_url"]}">Repository</a>' + (f' · <a href="{site}">Live demo</a>' if site else "")
     return (
-        f'<td valign="top" width="50%">'
-        f'<h3>📁 <a href="{r["html_url"]}">{r["name"]}</a></h3>'
-        f"<p>{desc}</p><p>{' '.join(tags)}</p><sub>{links}</sub></td>"
+        '<td valign="top" width="50%">'
+        f'<b><a href="{r["html_url"]}">📁 {r["name"]}</a></b><br/>'
+        f'<sub>{desc}</sub><br/><br/>{" ".join(tags)}<br/><sub>{links}</sub></td>'
     )
 
 
@@ -102,7 +141,7 @@ def activity(events, n=8):
     return "\n".join(lines) or "- No recent public activity"
 
 
-def overview(user, repos):
+def overview(user, repos, total):
     stars = sum(r["stargazers_count"] for r in repos)
     langs = {}
     for r in repos:
@@ -112,7 +151,7 @@ def overview(user, repos):
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     return (
         f"📦 **{user['public_repos']}** public repos · 👥 **{user['followers']}** followers · "
-        f"⭐ **{stars}** stars · 🔤 Top languages: {top}<br/><sub>Last refreshed: {now}</sub>"
+        f"🔥 **{total:,}** contributions · ⭐ **{stars}** stars · 🔤 Top languages: {top}<br/><sub>Last refreshed: {now}</sub>"
     )
 
 
@@ -129,7 +168,9 @@ def main():
     events = get(f"/users/{USER}/events/public?per_page=50")
     with open("README.md", encoding="utf-8") as f:
         text = f.read()
-    text = replace(text, "OVERVIEW", overview(user, repos))
+    years = contributions(int(user["created_at"][:4]))
+    text = replace(text, "OVERVIEW", overview(user, repos, sum(v[0] for v in years.values())))
+    text = replace(text, "CONTRIB", contrib_section(years))
     text = replace(text, "PROJECTS", latest_repos(repos))
     text = replace(text, "ACTIVITY", activity(events))
     with open("README.md", "w", encoding="utf-8") as f:
