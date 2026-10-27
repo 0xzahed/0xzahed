@@ -1,14 +1,23 @@
 #!/usr/bin/env python3
-"""Refresh the auto-generated sections of README.md from the GitHub API."""
+"""Refresh the auto-generated (terminal-style) sections of README.md from the GitHub API."""
 import json
 import os
 import re
 import urllib.request
-from urllib.parse import quote
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 USER = "0xzahed"
 EXCLUDE = {USER, "chorcha-security-audit"}
+# Hand-written one-liners; repos not listed fall back to their GitHub description.
+BLURBS = {
+    "portfolio": "Cinematic personal site",
+    "banglacaption": "Bangla caption generator",
+    "leadghar": "Lead management platform",
+    "travelbook": "Travel booking experience",
+    "clinicq": "Clinic queue system",
+    "restaruant": "Restaurant web app",
+}
+NOT_LANGS = {"Makefile", "Jupyter Notebook", "Dockerfile", "Shell", "Batchfile"}
 API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
@@ -30,36 +39,49 @@ def gql(query):
         return json.load(res)["data"]["user"]
 
 
-def contributions(created_year):
-    """Per-year totals (public + private) since the account was created."""
+def total_contributions(created_year):
+    """All-time contributions (public + private) since the account was created."""
     now = datetime.now(timezone.utc)
-    years = {}
+    total = 0
     for y in range(created_year, now.year + 1):
         end = now.strftime("%Y-%m-%dT%H:%M:%SZ") if y == now.year else f"{y}-12-31T23:59:59Z"
         u = gql(
             f'{{user(login:"{USER}"){{contributionsCollection(from:"{y}-01-01T00:00:00Z",to:"{end}")'
-            "{totalCommitContributions restrictedContributionsCount "
-            "contributionCalendar{totalContributions}}}}"
-        )["contributionsCollection"]
-        years[y] = (u["contributionCalendar"]["totalContributions"], u["totalCommitContributions"] + u["restrictedContributionsCount"])
-    return years
+            "{contributionCalendar{totalContributions}}}}"
+        )
+        total += u["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+    return total
 
 
-def contrib_section(years):
-    total = sum(v[0] for v in years.values())
-    peak = max(v[0] for v in years.values()) or 1
-    this_year = years[max(years)][0]
-    top = (
-        f"<p align=\"center\">{badge('all-time contributions', f'{total:,}', '2B90FF', 'github')} "
-        f"{badge(f'{max(years)}', f'{this_year:,}', '3C7DD9')} "
-        f"{badge('active since', str(min(years)), '64A1F4')}</p>"
+def current_streak():
+    now = datetime.now(timezone.utc)
+    start = (now - timedelta(days=364)).strftime("%Y-%m-%dT00:00:00Z")
+    u = gql(
+        f'{{user(login:"{USER}"){{contributionsCollection(from:"{start}",to:"{now.strftime("%Y-%m-%dT%H:%M:%SZ")}")'
+        "{contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}"
     )
-    rows = ["| Year | Contributions | |", "|---|---:|:--|"]
-    for y in sorted(years, reverse=True):
-        n = years[y][0]
-        bar = "█" * max(1, round(n / peak * 24)) if n else ""
-        rows.append(f"| {y} | {n:,} | `{bar}` |")
-    return top + "\n\n" + "\n".join(rows)
+    days = [d for w in u["contributionsCollection"]["contributionCalendar"]["weeks"] for d in w["contributionDays"]]
+    counts = [d["contributionCount"] for d in days if d["date"] <= now.strftime("%Y-%m-%d")]
+    if counts and counts[-1] == 0:  # today not contributed yet: streak is still alive
+        counts.pop()
+    streak = 0
+    for c in reversed(counts):
+        if c == 0:
+            break
+        streak += 1
+    return streak
+
+
+def language_share(repos, top=5):
+    sizes = {}
+    for r in repos:
+        if r["fork"] or r["name"] in EXCLUDE:
+            continue
+        for lang, n in get(f"/repos/{USER}/{r['name']}/languages").items():
+            if lang not in NOT_LANGS:
+                sizes[lang] = sizes.get(lang, 0) + n
+    total = sum(sizes.values()) or 1
+    return [(k, v / total * 100) for k, v in sorted(sizes.items(), key=lambda x: -x[1])[:top]]
 
 
 def ago(iso):
@@ -70,92 +92,53 @@ def ago(iso):
     return "just now"
 
 
-def link(repo):
-    return f"[{repo.split('/')[-1]}](https://github.com/{repo})"
+def stats_block(user, repos, total, streak, langs):
+    lines = ["```text"]
+    for name, pct in langs:
+        filled = round(pct / 5)
+        lines.append(f"{name:<12} {'█' * filled}{'░' * (20 - filled)} {pct:>3.0f}%")
+    lines.append("```")
+    cells = [(f"{total:,}", "contributions"), (str(streak), "day streak"),
+             (str(user["public_repos"]), "repos"), (str(user["followers"]), "followers")]
+    head = "| " + " | ".join(f"**{v}**" for v, _ in cells) + " |"
+    sub = "| " + " | ".join(l for _, l in cells) + " |"
+    table = [sub, "|" + ":-:|" * 4, head]  # markdown needs a header row first
+    return "\n".join(lines) + "\n\n" + "\n".join(table)
 
 
-LANG_COLORS = {
-    "TypeScript": "3178C6", "JavaScript": "F7DF1E", "Python": "3776AB", "HTML": "E34F26",
-    "Dart": "0175C2", "Go": "00ADD8", "EJS": "A91E50", "CSS": "1572B6",
-}
-
-
-def badge(label, message, color, logo=""):
-    esc = lambda v: quote(v.replace("-", "--").replace("_", "__"), safe="")
-    url = f"https://img.shields.io/badge/{esc(label)}-{esc(message)}-{color}?style=flat-square"
-    return f'<img src="{url}{"&logo=" + logo if logo else ""}" alt="{label}" />'
-
-
-def card(r):
-    desc = (r["description"] or "").strip() or "Work in progress"
-    tags = [badge("", r["language"], LANG_COLORS.get(r["language"], "555555"))] if r["language"] else []
-    tags.append(badge("updated", ago(r["pushed_at"]), "2B90FF"))
-    if r["stargazers_count"]:
-        tags.append(badge("stars", str(r["stargazers_count"]), "E3B341", "github"))
-    site = r.get("homepage")
-    links = f'<a href="{r["html_url"]}">Repository</a>' + (f' · <a href="{site}">Live demo</a>' if site else "")
-    return (
-        '<td valign="top" width="50%">'
-        f'<b><a href="{r["html_url"]}">📁 {r["name"]}</a></b><br/>'
-        f'<sub>{desc}</sub><br/><br/>{" ".join(tags)}<br/><sub>{links}</sub></td>'
-    )
-
-
-def latest_repos(repos, n=6):
+def projects_block(repos, n=6):
     picked = [r for r in repos if not r["fork"] and not r["archived"] and r["name"] not in EXCLUDE][:n]
-    cells = [
-        '    <td align="center" width="33%">\n'
-        f'      <a href="{r["html_url"]}"><img src="https://github-readme-stats.vercel.app/api/pin/'
-        f'?username={USER}&repo={r["name"]}&theme=tokyonight&hide_border=true" alt="{r["name"]}" /></a>\n'
-        "    </td>"
-        for r in picked
-    ]
-    rows = ["  <tr>\n" + "\n".join(cells[i:i + 3]) + "\n  </tr>" for i in range(0, len(cells), 3)]
+    cells = []
+    for r in picked:
+        desc = BLURBS.get(r["name"]) or (r["description"] or "").strip() or "Work in progress"
+        lang = f"● {r['language']}" if r["language"] else "● —"
+        cells.append(
+            f'<td valign="top" width="33%"><b>▸ <a href="{r["html_url"]}">{r["name"]}</a></b><br/>'
+            f"<sub>{desc}</sub><br/><sub>{lang} · {ago(r['pushed_at'])}</sub></td>"
+        )
+    while len(cells) % 3:
+        cells.append('<td width="33%"></td>')
+    rows = [f"  <tr>{''.join(cells[i:i + 3])}</tr>" for i in range(0, len(cells), 3)]
     return "<table>\n" + "\n".join(rows) + "\n</table>"
 
 
-def activity(events, n=8):
+def activity_block(events, n=6):
+    verbs = {"PushEvent": "push", "PullRequestEvent": "pr", "IssuesEvent": "issue", "ReleaseEvent": "release",
+             "ForkEvent": "fork", "WatchEvent": "star"}
     lines, seen = [], set()
     for e in events:
-        repo, t, p = e["repo"]["name"], e["type"], e.get("payload", {})
-        if repo.split("/")[-1] in EXCLUDE:
+        name = e["repo"]["name"]
+        if name.split("/")[-1] in EXCLUDE:
             continue
-        if t == "PushEvent":
-            text = f"⬆️ Pushed to {link(repo)}"
-        elif t == "PullRequestEvent":
-            text = f"🔀 {p.get('action', 'updated').capitalize()} PR in {link(repo)}"
-        elif t == "IssuesEvent":
-            text = f"🐞 {p.get('action', 'updated').capitalize()} issue in {link(repo)}"
-        elif t == "CreateEvent" and p.get("ref_type") == "repository":
-            text = f"✨ Created {link(repo)}"
-        elif t == "ReleaseEvent":
-            text = f"🚀 Released {link(repo)}"
-        elif t == "ForkEvent":
-            text = f"🍴 Forked {link(repo)}"
-        elif t == "WatchEvent":
-            text = f"⭐ Starred {link(repo)}"
-        else:
+        t = e["type"]
+        verb = "create" if t == "CreateEvent" and e["payload"].get("ref_type") == "repository" else verbs.get(t)
+        if not verb or (verb, name) in seen:
             continue
-        if text in seen:
-            continue
-        seen.add(text)
-        lines.append(f"- {text} · <sub>{ago(e['created_at'])}</sub>")
+        seen.add((verb, name))
+        lines.append(f"{verb:<8} {name:<34} {ago(e['created_at'])}")
         if len(lines) == n:
             break
-    return "\n".join(lines) or "- No recent public activity"
-
-
-def overview(user, repos, total):
-    stars = sum(r["stargazers_count"] for r in repos)
-    langs = {}
-    for r in repos:
-        if r["language"] and not r["fork"]:
-            langs[r["language"]] = langs.get(r["language"], 0) + 1
-    top = ", ".join(f"{k} ({v})" for k, v in sorted(langs.items(), key=lambda x: -x[1])[:4])
-    return (
-        f"📦 **{user['public_repos']}** public repos · 👥 **{user['followers']}** followers · "
-        f"🔥 **{total:,}** contributions · ⭐ **{stars}** stars · 🔤 Top languages: {top}"
-    )
+    return "```text\n" + ("\n".join(lines) or "no recent public activity") + "\n```"
 
 
 def replace(text, name, body):
@@ -169,13 +152,12 @@ def main():
     user = get(f"/users/{USER}")
     repos = get(f"/users/{USER}/repos?per_page=100&sort=pushed&type=owner")
     events = get(f"/users/{USER}/events/public?per_page=50")
+    total = total_contributions(int(user["created_at"][:4]))
     with open("README.md", encoding="utf-8") as f:
         text = f.read()
-    years = contributions(int(user["created_at"][:4]))
-    text = replace(text, "OVERVIEW", overview(user, repos, sum(v[0] for v in years.values())))
-    text = replace(text, "CONTRIB", contrib_section(years))
-    text = replace(text, "PROJECTS", latest_repos(repos))
-    text = replace(text, "ACTIVITY", activity(events))
+    text = replace(text, "STATS", stats_block(user, repos, total, current_streak(), language_share(repos)))
+    text = replace(text, "PROJECTS", projects_block(repos))
+    text = replace(text, "ACTIVITY", activity_block(events))
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(text)
 
