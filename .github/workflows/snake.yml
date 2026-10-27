@@ -21,7 +21,7 @@ jobs:
           github_user_name: 0xzahed
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#F0F6FC&color_dots=#21262d,#6b3410,#a94c0f,#e0670f,#FF7A18
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#F0F6FC&color_dots=#21262d,#4a0f1d,#7d1230,#af002d,#e5173f
 
       - name: Fetch GitHub stats SVGs
         run: |

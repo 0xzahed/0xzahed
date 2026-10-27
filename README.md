@@ -103,7 +103,7 @@ star     morluto/rea                        10d ago
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake-dark.svg?v=2" alt="snake" />
+<img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake-dark.svg?v=3" alt="snake" />
 
 </div>
 
