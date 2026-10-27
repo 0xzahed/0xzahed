@@ -31,8 +31,8 @@ jobs:
           if git diff --quiet README.md; then
             echo "No changes"; exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "0xzahed"
+          git config user.email "108692668+0xzahed@users.noreply.github.com"
           git add README.md
           git commit -m "chore: refresh live README data"
           git pull --rebase origin main
