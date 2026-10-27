@@ -18,7 +18,7 @@
 
 <p align="center">
 <!--OVERVIEW:START-->
-📦 **104** public repos · 👥 **8** followers · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), HTML (10), Python (9)<br/><sub>Last refreshed: 2026-10-27 05:41 UTC</sub>
+📦 **104** public repos · 👥 **8** followers · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)<br/><sub>Last refreshed: 2026-10-27 05:41 UTC</sub>
 <!--OVERVIEW:END-->
 </p>
 
