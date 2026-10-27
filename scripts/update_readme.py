@@ -107,7 +107,7 @@ def latest_repos(repos, n=6):
     if len(cards) % 2:
         cards.append('<td width="50%"></td>')
     rows = [f"  <tr>{cards[i]}{cards[i + 1]}</tr>" for i in range(0, len(cards), 2)]
-    return "<table>\n" + "\n".join(rows) + "\n</table>"
+    return "<table width=\"100%\">\n" + "\n".join(rows) + "\n</table>"
 
 
 def activity(events, n=8):
