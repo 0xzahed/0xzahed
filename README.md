@@ -18,7 +18,7 @@
 
 <p align="center">
 <!--OVERVIEW:START-->
-📦 **104** public repos · 👥 **8** followers · 🔥 **3,783** contributions · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)
+📦 **104** public repos · 👥 **8** followers · 🔥 **3,784** contributions · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)
 <!--OVERVIEW:END-->
 </p>
 
@@ -114,11 +114,11 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 ## 📈 Contributions
 
 <!--CONTRIB:START-->
-<p align="center"><img src="https://img.shields.io/badge/all--time%20contributions-3%2C783-2B90FF?style=flat-square&logo=github" alt="all-time contributions" /> <img src="https://img.shields.io/badge/2026-3%2C532-3C7DD9?style=flat-square" alt="2026" /> <img src="https://img.shields.io/badge/active%20since-2022-64A1F4?style=flat-square" alt="active since" /></p>
+<p align="center"><img src="https://img.shields.io/badge/all--time%20contributions-3%2C784-2B90FF?style=flat-square&logo=github" alt="all-time contributions" /> <img src="https://img.shields.io/badge/2026-3%2C533-3C7DD9?style=flat-square" alt="2026" /> <img src="https://img.shields.io/badge/active%20since-2022-64A1F4?style=flat-square" alt="active since" /></p>
 
 | Year | Contributions | |
 |---|---:|:--|
-| 2026 | 3,532 | `████████████████████████` |
+| 2026 | 3,533 | `████████████████████████` |
 | 2025 | 165 | `█` |
 | 2024 | 56 | `█` |
 | 2023 | 29 | `█` |
