@@ -21,15 +21,15 @@ jobs:
           github_user_name: 0xzahed
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=orange&color_dots=#161b22,#5c2e0a,#99480d,#d66a12,#FF7A18
 
       - name: Fetch GitHub stats SVGs
         run: |
           sudo chown -R "$(id -u):$(id -g)" dist
           mkdir -p dist
-          curl -fsSL "https://streak-stats.demolab.com?user=0xzahed&theme=tokyonight&hide_border=true&border_radius=10" -o dist/streak-stats.svg
-          curl -fsSL "https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=10&show_rank=true" -o dist/github-stats.svg
-          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" -o dist/top-langs.svg
+          curl -fsSL "https://streak-stats.demolab.com?user=0xzahed&background=0D1117&ring=FF7A18&fire=FF7A18&currStreakNum=FF7A18&sideNums=C9D1D9&currStreakLabel=FF7A18&sideLabels=C9D1D9&dates=8B949E&hide_border=true&border_radius=10" -o dist/streak-stats.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&include_all_commits=true&title_color=FF7A18&icon_color=FF7A18&text_color=C9D1D9&bg_color=0D1117&ring_color=FF7A18&hide_border=true&border_radius=10&show_rank=true" -o dist/github-stats.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&title_color=FF7A18&icon_color=FF7A18&text_color=C9D1D9&bg_color=0D1117&ring_color=FF7A18&hide_border=true&border_radius=10" -o dist/top-langs.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
