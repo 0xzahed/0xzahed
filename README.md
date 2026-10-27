@@ -105,8 +105,6 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake.svg" />
     <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake.svg" alt="Contribution snake" />
   </picture>
-  <br />
-  <sub>Auto-updates daily via GitHub Action.</sub>
 </p>
 
 ---
