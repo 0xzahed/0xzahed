@@ -148,10 +148,9 @@ def overview(user, repos, total):
         if r["language"] and not r["fork"]:
             langs[r["language"]] = langs.get(r["language"], 0) + 1
     top = ", ".join(f"{k} ({v})" for k, v in sorted(langs.items(), key=lambda x: -x[1])[:4])
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     return (
         f"📦 **{user['public_repos']}** public repos · 👥 **{user['followers']}** followers · "
-        f"🔥 **{total:,}** contributions · ⭐ **{stars}** stars · 🔤 Top languages: {top}<br/><sub>Last refreshed: {now}</sub>"
+        f"🔥 **{total:,}** contributions · ⭐ **{stars}** stars · 🔤 Top languages: {top}"
     )
 
 

@@ -18,7 +18,7 @@
 
 <p align="center">
 <!--OVERVIEW:START-->
-📦 **104** public repos · 👥 **8** followers · 🔥 **3,783** contributions · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)<br/><sub>Last refreshed: 2026-10-27 09:58 UTC</sub>
+📦 **104** public repos · 👥 **8** followers · 🔥 **3,783** contributions · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)
 <!--OVERVIEW:END-->
 </p>
 
@@ -38,7 +38,7 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 
 ---
 
-## 🚀 Featured Projects <sub>(auto-updated)</sub>
+## 🚀 Featured Projects
 
 <!--PROJECTS:START-->
 <table>
@@ -50,7 +50,7 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 
 ---
 
-## ⚡ Recent Activity <sub>(auto-updated)</sub>
+## ⚡ Recent Activity
 
 <!--ACTIVITY:START-->
 - ⭐ Starred [rea](https://github.com/morluto/rea) · <sub>10d ago</sub>
@@ -111,7 +111,7 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 
 ---
 
-## 📈 Contributions <sub>(public + private, auto-updated)</sub>
+## 📈 Contributions
 
 <!--CONTRIB:START-->
 <p align="center"><img src="https://img.shields.io/badge/all--time%20contributions-3%2C783-2B90FF?style=flat-square&logo=github" alt="all-time contributions" /> <img src="https://img.shields.io/badge/2026-3%2C532-3C7DD9?style=flat-square" alt="2026" /> <img src="https://img.shields.io/badge/active%20since-2022-64A1F4?style=flat-square" alt="active since" /></p>
@@ -131,9 +131,10 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 
 <table align="center">
   <tr>
-    <td valign="top"><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" height="195" alt="streak stats" /></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg" height="195" alt="github stats" /></td>
     <td valign="top"><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" height="195" alt="top languages" /></td>
   </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" height="195" alt="streak stats" /></td>
+  </tr>
 </table>
-
-<p align="center"><sub>Auto-updates daily via GitHub Action.</sub></p>
