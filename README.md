@@ -1,57 +1,150 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/main/Linked%20In%20Cover%20(2).png" alt="Banner" width="100%" />
-</p>
+<!-- ================= HEADER ================= -->
+<div align="center">
 
-<h1 align="center">Hi, I'm Abu Zahed 👋</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:FF7A18,100:AF002D&text=Abu%20Zahed&fontColor=ffffff&fontSize=60&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full%20Stack%20%7C%20Web%20Security&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header" />
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=24&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=Software+Engineer;MERN+Stack+Developer;Bug+Bounty+Learner" alt="typing" />
-</p>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=FF7A18&center=true&vCenter=true&width=700&lines=Building+fast%2C+clean+%26+scalable+web+apps;MERN+%7C+Next.js+%7C+Django+%7C+TypeScript;Learning+Web+Security+%26+Bug+Bounty;Based+in+Dhaka%2C+Bangladesh+%F0%9F%87%A7%F0%9F%87%A9" alt="typing" />
+</a>
 
-<p align="center">
-  <a href="https://www.0xzahed.me"><img src="https://img.shields.io/badge/Portfolio-2B90FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/abu-zahed-1954a7242"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/0xzahed"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="mailto:zahed04x@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <img src="https://komarev.com/ghpvc/?username=0xzahed&color=2B90FF&style=for-the-badge&label=PROFILE+VIEWS" alt="views" />
-</p>
+<br/>
 
-<p align="center">
+<a href="https://www.0xzahed.me"><img src="https://img.shields.io/badge/Portfolio-FF7A18?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/abu-zahed-1954a7242"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://x.com/0xzahed"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+<a href="mailto:zahed04x@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=0xzahed&label=Profile%20Views&color=FF7A18&style=flat-square" alt="views" />
+<img src="https://img.shields.io/github/followers/0xzahed?label=Followers&style=flat-square&color=AF002D" alt="followers" />
+
+<br/><br/>
+
 <!--OVERVIEW:START-->
-📦 **104** public repos · 👥 **8** followers · 🔥 **3,787** contributions · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)
+📦 **104** public repos · 👥 **8** followers · 🔥 **3,788** contributions · ⭐ **3** stars · 🔤 Top languages: TypeScript (29), JavaScript (23), Python (10), HTML (10)
 <!--OVERVIEW:END-->
-</p>
 
----
+</div>
 
+<br/>
+
+<!-- ================= ABOUT ================= -->
 ## 👨‍💻 About Me
 
-Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly web apps with the MERN stack. Currently expanding into **web security & bug bounty** with Burp Suite on Linux. I care about clean code, performance, and shipping products people enjoy using.
+```js
+const zahed = {
+  name: "Abu Zahed",
+  role: "Software Engineer",
+  location: "Dhaka, Bangladesh 🇧🇩",
+  education: "CSE @ Daffodil International University",
+  stack: ["React", "Next.js", "Node.js", "Express", "MongoDB", "Django", "TypeScript", "Tailwind"],
+  learning: ["Web Security", "Bug Bounty (Burp Suite, Linux)", "AI Engineering"],
+  focus: "Clean architecture, performance & responsive UX",
+  goal: "Build impactful, intelligent and reliable software 🚀",
+};
+```
 
-| | |
-|---|---|
-| 💻 **Stack** | React.js, Next.js, Node.js, Express.js, MongoDB, TypeScript, Tailwind CSS |
-| 🛡 **Learning** | Web Security & Bug Bounty (Burp Suite, Linux) |
-| 🔭 **Focus** | Clean architecture, performance, responsive UX |
-| ✉️ **Email** | [zahed04x@gmail.com](mailto:zahed04x@gmail.com) |
-| 🌐 **Portfolio** | [www.0xzahed.me](https://www.0xzahed.me) |
+> 💡 *I care about clean code, performance, and shipping products people actually enjoy using.*
 
----
+<br/>
 
+<!-- ================= TECH STACK ================= -->
+## 🛠️ Tech Stack
+
+<div align="center">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,python,c,cpp&perline=7" alt="languages" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,redux&perline=7" alt="frontend" />
+
+**Backend & Database**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,django,mongodb,firebase,postgres&perline=7" alt="backend" />
+
+**Security & OS**
+
+<img src="https://skillicons.dev/icons?i=linux,kali&perline=7" alt="security" /> <img src="https://cdn.simpleicons.org/burpsuite" width="48" height="48" alt="Burp Suite" />
+
+**Deployment & Tools**
+
+<img src="https://skillicons.dev/icons?i=vercel,netlify,git,github,vscode,postman,figma&perline=7" alt="tools" />
+
+</div>
+
+<br/>
+
+<!-- ================= PROJECTS ================= -->
 ## 🚀 Featured Projects
 
+<div align="center">
+
 <!--PROJECTS:START-->
-<p align="center">
-<a href="https://github.com/0xzahed/portfolio"><img width="49%" alt="portfolio" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=portfolio&theme=github_dark&border_radius=10&show_owner=false" /></a>
-<a href="https://github.com/0xzahed/restaruant"><img width="49%" alt="restaruant" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=restaruant&theme=github_dark&border_radius=10&show_owner=false" /></a>
-<a href="https://github.com/0xzahed/banglacaption"><img width="49%" alt="banglacaption" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=banglacaption&theme=github_dark&border_radius=10&show_owner=false" /></a>
-<a href="https://github.com/0xzahed/leadghar"><img width="49%" alt="leadghar" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=leadghar&theme=github_dark&border_radius=10&show_owner=false" /></a>
-<a href="https://github.com/0xzahed/travelbook"><img width="49%" alt="travelbook" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=travelbook&theme=github_dark&border_radius=10&show_owner=false" /></a>
-<a href="https://github.com/0xzahed/clinicq"><img width="49%" alt="clinicq" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=clinicq&theme=github_dark&border_radius=10&show_owner=false" /></a>
-</p>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/0xzahed/portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=portfolio&theme=tokyonight&hide_border=true" alt="portfolio" /></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/0xzahed/restaruant"><img src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=restaruant&theme=tokyonight&hide_border=true" alt="restaruant" /></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/0xzahed/banglacaption"><img src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=banglacaption&theme=tokyonight&hide_border=true" alt="banglacaption" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/0xzahed/leadghar"><img src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=leadghar&theme=tokyonight&hide_border=true" alt="leadghar" /></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/0xzahed/travelbook"><img src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=travelbook&theme=tokyonight&hide_border=true" alt="travelbook" /></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/0xzahed/clinicq"><img src="https://github-readme-stats.vercel.app/api/pin/?username=0xzahed&repo=clinicq&theme=tokyonight&hide_border=true" alt="clinicq" /></a>
+    </td>
+  </tr>
+</table>
 <!--PROJECTS:END-->
 
----
+</div>
+
+<br/>
+
+<!-- ================= STATS ================= -->
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180" src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg" alt="github stats" />
+<img height="180" src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" alt="top languages" />
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" alt="streak stats" />
+
+</div>
+
+<br/>
+
+## 📈 Contributions
+
+<!--CONTRIB:START-->
+<p align="center"><img src="https://img.shields.io/badge/all--time%20contributions-3%2C788-2B90FF?style=flat-square&logo=github" alt="all-time contributions" /> <img src="https://img.shields.io/badge/2026-3%2C537-3C7DD9?style=flat-square" alt="2026" /> <img src="https://img.shields.io/badge/active%20since-2022-64A1F4?style=flat-square" alt="active since" /></p>
+
+| Year | Contributions | |
+|---|---:|:--|
+| 2026 | 3,537 | `████████████████████████` |
+| 2025 | 165 | `█` |
+| 2024 | 56 | `█` |
+| 2023 | 29 | `█` |
+| 2022 | 1 | `█` |
+<!--CONTRIB:END-->
+
+<br/>
 
 ## ⚡ Recent Activity
 
@@ -59,83 +152,28 @@ Software Engineer from **Dhaka, Bangladesh**, building responsive, user-friendly
 - ⭐ Starred [rea](https://github.com/morluto/rea) · <sub>10d ago</sub>
 <!--ACTIVITY:END-->
 
----
+<br/>
 
-## 🛠 Technology Stack
+<!-- ================= SNAKE ================= -->
+<div align="center">
 
-<table>
-  <tr>
-    <td valign="top" width="150"><b>🔤 Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=html,css,js,ts,python,c,cpp" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>🎨 CSS / Frameworks</b></td>
-    <td><img src="https://skillicons.dev/icons?i=tailwind,bootstrap" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>⚛ JS Frameworks</b></td>
-    <td><img src="https://skillicons.dev/icons?i=react,nextjs,redux,nodejs,express" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>🗄 Databases</b></td>
-    <td><img src="https://skillicons.dev/icons?i=mongodb,firebase" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>🔐 Security</b></td>
-    <td>
-      <img src="https://cdn.simpleicons.org/burpsuite" width="40" title="Burp Suite" />&nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=linux" />
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>🚀 Deployment</b></td>
-    <td><img src="https://skillicons.dev/icons?i=vercel,netlify,firebase" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>🔧 Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux" /></td>
-  </tr>
-</table>
+<img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake-dark.svg" alt="snake" />
 
----
+</div>
 
-## 📊 GitHub Statistics & Analysis
+<br/>
 
-### 🐍 Contribution Snake
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-snake.svg" alt="Contribution snake" />
-  </picture>
-</p>
+<!-- ================= CONNECT ================= -->
+## 🤝 Let's Connect
 
----
+<div align="center">
 
-## 📈 Contributions
+📧 **zahed04x@gmail.com** &nbsp;•&nbsp; 🌐 **[0xzahed.me](https://www.0xzahed.me)**
 
-<!--CONTRIB:START-->
-<p align="center"><img src="https://img.shields.io/badge/all--time%20contributions-3%2C787-2B90FF?style=flat-square&logo=github" alt="all-time contributions" /> <img src="https://img.shields.io/badge/2026-3%2C536-3C7DD9?style=flat-square" alt="2026" /> <img src="https://img.shields.io/badge/active%20since-2022-64A1F4?style=flat-square" alt="active since" /></p>
+*Open to freelance work, collaborations and interesting ideas.*
 
-| Year | Contributions | |
-|---|---:|:--|
-| 2026 | 3,536 | `████████████████████████` |
-| 2025 | 165 | `█` |
-| 2024 | 56 | `█` |
-| 2023 | 29 | `█` |
-| 2022 | 1 | `█` |
-<!--CONTRIB:END-->
+<br/>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:AF002D,100:FF7A18&section=footer" width="100%" alt="footer" />
 
-## ⚡ GitHub Stats
-
-<table align="center">
-  <tr>
-    <td valign="top"><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/github-stats.svg" height="195" alt="github stats" /></td>
-    <td valign="top"><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/top-langs.svg" height="195" alt="top languages" /></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="https://raw.githubusercontent.com/0xzahed/0xzahed/output/streak-stats.svg" height="195" alt="streak stats" /></td>
-  </tr>
-</table>
+</div>

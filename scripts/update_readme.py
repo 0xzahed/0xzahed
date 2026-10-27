@@ -103,12 +103,15 @@ def card(r):
 
 def latest_repos(repos, n=6):
     picked = [r for r in repos if not r["fork"] and not r["archived"] and r["name"] not in EXCLUDE][:n]
-    cards = [
-        f'<a href="{r["html_url"]}"><img width="49%" alt="{r["name"]}" src="https://github-readme-stats.vercel.app/api/pin/'
-        f'?username={USER}&repo={r["name"]}&theme=github_dark&border_radius=10&show_owner=false" /></a>'
+    cells = [
+        '    <td align="center" width="33%">\n'
+        f'      <a href="{r["html_url"]}"><img src="https://github-readme-stats.vercel.app/api/pin/'
+        f'?username={USER}&repo={r["name"]}&theme=tokyonight&hide_border=true" alt="{r["name"]}" /></a>\n'
+        "    </td>"
         for r in picked
     ]
-    return '<p align="center">\n' + "\n".join(cards) + "\n</p>"
+    rows = ["  <tr>\n" + "\n".join(cells[i:i + 3]) + "\n  </tr>" for i in range(0, len(cells), 3)]
+    return "<table>\n" + "\n".join(rows) + "\n</table>"
 
 
 def activity(events, n=8):
