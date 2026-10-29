@@ -46,8 +46,8 @@ status     : building something cool... ▮
 
 <!--PROJECTS:START-->
 <table>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 12d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/restaruant">restaruant</a></b><br/><sub>Restaurant web app</sub><br/><sub>● EJS · 19d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/banglacaption">banglacaption</a></b><br/><sub>Bangla caption generator</sub><br/><sub>● TypeScript · 20d ago</sub></td></tr>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/leadghar">leadghar</a></b><br/><sub>Lead management platform</sub><br/><sub>● TypeScript · 20d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/travelbook">travelbook</a></b><br/><sub>Travel booking experience</sub><br/><sub>● TypeScript · 20d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/clinicq">clinicq</a></b><br/><sub>Clinic queue system</sub><br/><sub>● TypeScript · 20d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 1h ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 12d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/restaruant">restaruant</a></b><br/><sub>Restaurant web app</sub><br/><sub>● EJS · 19d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/banglacaption">banglacaption</a></b><br/><sub>Bangla caption generator</sub><br/><sub>● TypeScript · 21d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/leadghar">leadghar</a></b><br/><sub>Lead management platform</sub><br/><sub>● TypeScript · 21d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/travelbook">travelbook</a></b><br/><sub>Travel booking experience</sub><br/><sub>● TypeScript · 21d ago</sub></td></tr>
 </table>
 <!--PROJECTS:END-->
 
@@ -63,7 +63,7 @@ TypeScript   ███░░░░░░░░░░░░░░░░░  14%
 CSS          █░░░░░░░░░░░░░░░░░░░   4%
 ```
 
-| **3,898** | **5** | **104** | **9** |
+| **3,899** | **5** | **105** | **9** |
 |:-:|:-:|:-:|:-:|
 | contributions | day streak | repos | followers |
 <!--STATS:END-->
@@ -83,7 +83,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--YEARLY:START-->
 ```text
-2026  ████████████████████████ 3,647
+2026  ████████████████████████ 3,648
 2025  █                          165
 2024  █                           56
 2023  █                           29
@@ -95,7 +95,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--ACTIVITY:START-->
 ```text
-star     ai-job-search-dev/ai-job-search    11h ago
+star     ai-job-search-dev/ai-job-search    16h ago
 star     morluto/rea                        13d ago
 ```
 <!--ACTIVITY:END-->
