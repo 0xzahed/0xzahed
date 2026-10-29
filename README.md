@@ -46,7 +46,7 @@ status     : building something cool... ▮
 
 <!--PROJECTS:START-->
 <table>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 11d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/restaruant">restaruant</a></b><br/><sub>Restaurant web app</sub><br/><sub>● EJS · 18d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/banglacaption">banglacaption</a></b><br/><sub>Bangla caption generator</sub><br/><sub>● TypeScript · 20d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 11d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/restaruant">restaruant</a></b><br/><sub>Restaurant web app</sub><br/><sub>● EJS · 19d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/banglacaption">banglacaption</a></b><br/><sub>Bangla caption generator</sub><br/><sub>● TypeScript · 20d ago</sub></td></tr>
   <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/leadghar">leadghar</a></b><br/><sub>Lead management platform</sub><br/><sub>● TypeScript · 20d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/travelbook">travelbook</a></b><br/><sub>Travel booking experience</sub><br/><sub>● TypeScript · 20d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/clinicq">clinicq</a></b><br/><sub>Clinic queue system</sub><br/><sub>● TypeScript · 20d ago</sub></td></tr>
 </table>
 <!--PROJECTS:END-->
@@ -63,7 +63,7 @@ TypeScript   ███░░░░░░░░░░░░░░░░░  14%
 CSS          █░░░░░░░░░░░░░░░░░░░   4%
 ```
 
-| **3,848** | **5** | **104** | **9** |
+| **3,878** | **5** | **104** | **9** |
 |:-:|:-:|:-:|:-:|
 | contributions | day streak | repos | followers |
 <!--STATS:END-->
@@ -83,7 +83,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--YEARLY:START-->
 ```text
-2026  ████████████████████████ 3,597
+2026  ████████████████████████ 3,627
 2025  █                          165
 2024  █                           56
 2023  █                           29
@@ -95,6 +95,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--ACTIVITY:START-->
 ```text
+star     ai-job-search-dev/ai-job-search    5h ago
 star     morluto/rea                        12d ago
 ```
 <!--ACTIVITY:END-->
