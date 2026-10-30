@@ -27,9 +27,45 @@ jobs:
         run: |
           sudo chown -R "$(id -u):$(id -g)" dist
           mkdir -p dist
-          curl -fsSL "https://streak-stats.demolab.com?user=0xzahed&background=0D1117&ring=FF7A18&fire=FF7A18&currStreakNum=FF7A18&sideNums=C9D1D9&currStreakLabel=FF7A18&sideLabels=C9D1D9&dates=8B949E&hide_border=true&border_radius=10" -o dist/streak-stats.svg
-          curl -fsSL "https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&include_all_commits=true&title_color=FF7A18&icon_color=FF7A18&text_color=C9D1D9&bg_color=0D1117&ring_color=FF7A18&hide_border=true&border_radius=10&show_rank=true" -o dist/github-stats.svg
-          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&title_color=FF7A18&icon_color=FF7A18&text_color=C9D1D9&bg_color=0D1117&ring_color=FF7A18&hide_border=true&border_radius=10" -o dist/top-langs.svg
+
+          # 1. Pre-seed dist with current SVGs from output branch to ensure zero broken images
+          RAW_BASE="https://raw.githubusercontent.com/0xzahed/0xzahed/output"
+          for file in streak-stats.svg github-stats.svg top-langs.svg; do
+            curl -sSL "$RAW_BASE/$file" -o "dist/$file" 2>/dev/null || true
+          done
+
+          # 2. Helper to fetch with retry and graceful fallback
+          fetch_svg() {
+            local target="dist/$1"
+            shift
+            local tmp="${target}.tmp"
+            for url in "$@"; do
+              echo "Fetching $target from $url..."
+              if curl -fsSL --connect-timeout 8 --max-time 20 --retry 2 "$url" -o "$tmp" 2>/dev/null; then
+                if [ -s "$tmp" ] && grep -q "<svg" "$tmp"; then
+                  mv "$tmp" "$target"
+                  echo "✔ Successfully updated $target"
+                  return 0
+                fi
+              fi
+              rm -f "$tmp"
+            done
+            echo "⚠ Preserving existing cached $target"
+          }
+
+          # 3. Fetch streak stats
+          fetch_svg streak-stats.svg \
+            "https://streak-stats.demolab.com?user=0xzahed&background=0D1117&ring=FF7A18&fire=FF7A18&currStreakNum=FF7A18&sideNums=C9D1D9&currStreakLabel=FF7A18&sideLabels=C9D1D9&dates=8B949E&hide_border=true&border_radius=10"
+
+          # 4. Fetch GitHub stats (with active mirror & fallback)
+          fetch_svg github-stats.svg \
+            "https://github-readme-stats-eight-theta.vercel.app/api?username=0xzahed&show_icons=true&include_all_commits=true&title_color=FF7A18&icon_color=FF7A18&text_color=C9D1D9&bg_color=0D1117&ring_color=FF7A18&hide_border=true&border_radius=10&show_rank=true" \
+            "https://github-readme-stats.vercel.app/api?username=0xzahed&show_icons=true&include_all_commits=true&title_color=FF7A18&icon_color=FF7A18&text_color=C9D1D9&bg_color=0D1117&ring_color=FF7A18&hide_border=true&border_radius=10&show_rank=true"
+
+          # 5. Fetch top languages (with active mirror & fallback)
+          fetch_svg top-langs.svg \
+            "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=0xzahed&layout=compact&title_color=FF7A18&icon_color=FF7A18&text_color=C9D1D9&bg_color=0D1117&ring_color=FF7A18&hide_border=true&border_radius=10" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=0xzahed&layout=compact&title_color=FF7A18&icon_color=FF7A18&text_color=C9D1D9&bg_color=0D1117&ring_color=FF7A18&hide_border=true&border_radius=10"
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
