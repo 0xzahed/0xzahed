@@ -46,8 +46,8 @@ status     : building something cool... ▮
 
 <!--PROJECTS:START-->
 <table>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 5h ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 21h ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 13d ago</sub></td></tr>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/restaruant">restaruant</a></b><br/><sub>Restaurant web app</sub><br/><sub>● EJS · 20d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/banglacaption">banglacaption</a></b><br/><sub>Bangla caption generator</sub><br/><sub>● TypeScript · 22d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/leadghar">leadghar</a></b><br/><sub>Lead management platform</sub><br/><sub>● TypeScript · 22d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 4h ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 4h ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 14h ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 13d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/restaruant">restaruant</a></b><br/><sub>Restaurant web app</sub><br/><sub>● EJS · 21d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/banglacaption">banglacaption</a></b><br/><sub>Bangla caption generator</sub><br/><sub>● TypeScript · 22d ago</sub></td></tr>
 </table>
 <!--PROJECTS:END-->
 
@@ -63,7 +63,7 @@ TypeScript   ███░░░░░░░░░░░░░░░░░  14%
 CSS          █░░░░░░░░░░░░░░░░░░░   4%
 ```
 
-| **3,950** | **7** | **106** | **9** |
+| **3,956** | **7** | **106** | **9** |
 |:-:|:-:|:-:|:-:|
 | contributions | day streak | repos | followers |
 <!--STATS:END-->
@@ -83,7 +83,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--YEARLY:START-->
 ```text
-2026  ████████████████████████ 3,699
+2026  ████████████████████████ 3,705
 2025  █                          165
 2024  █                           56
 2023  █                           29
@@ -96,8 +96,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 <!--ACTIVITY:START-->
 ```text
 push     0xzahed/ventox                     1d ago
-star     ai-job-search-dev/ai-job-search    1d ago
-star     morluto/rea                        14d ago
+star     ai-job-search-dev/ai-job-search    2d ago
 ```
 <!--ACTIVITY:END-->
 
