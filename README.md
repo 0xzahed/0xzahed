@@ -46,8 +46,8 @@ status     : building something cool... ▮
 
 <!--PROJECTS:START-->
 <table>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/codedna">codedna</a></b><br/><sub>A Living Intelligence Map of Software — Understand Your Code. See Its DNA.</sub><br/><sub>● Go · 3d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 6d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 6d ago</sub></td></tr>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 7d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 20d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/restaruant">restaruant</a></b><br/><sub>Restaurant web app</sub><br/><sub>● EJS · 27d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/codedna">codedna</a></b><br/><sub>A Living Intelligence Map of Software — Understand Your Code. See Its DNA.</sub><br/><sub>● Go · 4d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 7d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 7d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 7d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 20d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/restaruant">restaruant</a></b><br/><sub>Restaurant web app</sub><br/><sub>● EJS · 28d ago</sub></td></tr>
 </table>
 <!--PROJECTS:END-->
 
@@ -63,7 +63,7 @@ TypeScript   ███░░░░░░░░░░░░░░░░░  14%
 CSS          █░░░░░░░░░░░░░░░░░░░   4%
 ```
 
-| **4,183** | **13** | **107** | **9** |
+| **4,185** | **14** | **107** | **9** |
 |:-:|:-:|:-:|:-:|
 | contributions | day streak | repos | followers |
 <!--STATS:END-->
@@ -83,7 +83,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--YEARLY:START-->
 ```text
-2026  ████████████████████████ 3,932
+2026  ████████████████████████ 3,934
 2025  █                          165
 2024  █                           56
 2023  █                           29
@@ -95,7 +95,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--ACTIVITY:START-->
 ```text
-push     0xzahed/codedna                    3d ago
+push     0xzahed/codedna                    4d ago
 ```
 <!--ACTIVITY:END-->
 
