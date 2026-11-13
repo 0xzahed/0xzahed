@@ -46,8 +46,8 @@ status     : building something cool... ▮
 
 <!--PROJECTS:START-->
 <table>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_Frontend">ChatPilot_Frontend</a></b><br/><sub>Work in progress</sub><br/><sub>● TypeScript · 3d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_backend">ChatPilot_backend</a></b><br/><sub>Work in progress</sub><br/><sub>● Python · 3d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/codedna">codedna</a></b><br/><sub>A Living Intelligence Map of Software — Understand Your Code. See Its DNA.</sub><br/><sub>● Go · 9d ago</sub></td></tr>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 12d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 12d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 13d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_Frontend">ChatPilot_Frontend</a></b><br/><sub>Work in progress</sub><br/><sub>● TypeScript · 4d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_backend">ChatPilot_backend</a></b><br/><sub>Work in progress</sub><br/><sub>● Python · 4d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/codedna">codedna</a></b><br/><sub>A Living Intelligence Map of Software — Understand Your Code. See Its DNA.</sub><br/><sub>● Go · 10d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 13d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 13d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 13d ago</sub></td></tr>
 </table>
 <!--PROJECTS:END-->
 
@@ -63,7 +63,7 @@ TypeScript   ███░░░░░░░░░░░░░░░░░  14%
 CSS          █░░░░░░░░░░░░░░░░░░░   4%
 ```
 
-| **4,358** | **19** | **107** | **9** |
+| **4,363** | **20** | **107** | **9** |
 |:-:|:-:|:-:|:-:|
 | contributions | day streak | repos | followers |
 <!--STATS:END-->
@@ -83,7 +83,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--YEARLY:START-->
 ```text
-2026  ████████████████████████ 4,107
+2026  ████████████████████████ 4,112
 2025  █                          165
 2024  █                           56
 2023  █                           29
@@ -95,9 +95,9 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--ACTIVITY:START-->
 ```text
-push     0xzahed/ChatPilot_backend          4d ago
-push     0xzahed/ChatPilot_Frontend         4d ago
-push     0xzahed/codedna                    9d ago
+push     0xzahed/ChatPilot_backend          5d ago
+push     0xzahed/ChatPilot_Frontend         5d ago
+push     0xzahed/codedna                    10d ago
 ```
 <!--ACTIVITY:END-->
 
