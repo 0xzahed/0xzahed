@@ -47,7 +47,7 @@ status     : building something cool... ▮
 <!--PROJECTS:START-->
 <table>
   <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_Frontend">ChatPilot_Frontend</a></b><br/><sub>Work in progress</sub><br/><sub>● TypeScript · 6d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_backend">ChatPilot_backend</a></b><br/><sub>Work in progress</sub><br/><sub>● Python · 6d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/codedna">codedna</a></b><br/><sub>A Living Intelligence Map of Software — Understand Your Code. See Its DNA.</sub><br/><sub>● Go · 12d ago</sub></td></tr>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 15d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 15d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 15d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 15d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 15d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 16d ago</sub></td></tr>
 </table>
 <!--PROJECTS:END-->
 
@@ -63,7 +63,7 @@ TypeScript   ██░░░░░░░░░░░░░░░░░░  10%
 CSS          █░░░░░░░░░░░░░░░░░░░   4%
 ```
 
-| **4,516** | **22** | **100** | **9** |
+| **4,517** | **22** | **100** | **9** |
 |:-:|:-:|:-:|:-:|
 | contributions | day streak | repos | followers |
 <!--STATS:END-->
@@ -83,7 +83,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--YEARLY:START-->
 ```text
-2026  ████████████████████████ 4,265
+2026  ████████████████████████ 4,266
 2025  █                          165
 2024  █                           56
 2023  █                           29
