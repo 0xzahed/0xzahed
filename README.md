@@ -47,7 +47,7 @@ status     : building something cool... ▮
 <!--PROJECTS:START-->
 <table>
   <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_Frontend">ChatPilot_Frontend</a></b><br/><sub>Work in progress</sub><br/><sub>● TypeScript · 9d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_backend">ChatPilot_backend</a></b><br/><sub>Work in progress</sub><br/><sub>● Python · 9d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/codedna">codedna</a></b><br/><sub>A Living Intelligence Map of Software — Understand Your Code. See Its DNA.</sub><br/><sub>● Go · 15d ago</sub></td></tr>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 18d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 18d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 18d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 18d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ventox">ventox</a></b><br/><sub>⚡ Next-Gen UEFI/GPT Bootable USB Creator in Go with auto-detection for Windows 11 & Linux</sub><br/><sub>● Go · 18d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/SonicFetch">SonicFetch</a></b><br/><sub>Work in progress</sub><br/><sub>● Rust · 19d ago</sub></td></tr>
 </table>
 <!--PROJECTS:END-->
 
@@ -63,7 +63,7 @@ TypeScript   ██░░░░░░░░░░░░░░░░░░  10%
 CSS          █░░░░░░░░░░░░░░░░░░░   4%
 ```
 
-| **4,589** | **25** | **101** | **9** |
+| **4,591** | **25** | **101** | **9** |
 |:-:|:-:|:-:|:-:|
 | contributions | day streak | repos | followers |
 <!--STATS:END-->
@@ -83,7 +83,7 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--YEARLY:START-->
 ```text
-2026  ████████████████████████ 4,338
+2026  ████████████████████████ 4,340
 2025  █                          165
 2024  █                           56
 2023  █                           29
@@ -95,8 +95,8 @@ CSS          █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--ACTIVITY:START-->
 ```text
-pr       jihanurrahman33/Claude-Usage-Widget 2h ago
-fork     jihanurrahman33/Claude-Usage-Widget 2h ago
+pr       jihanurrahman33/Claude-Usage-Widget 11h ago
+fork     jihanurrahman33/Claude-Usage-Widget 11h ago
 push     0xzahed/ChatPilot_backend          10d ago
 push     0xzahed/ChatPilot_Frontend         10d ago
 push     0xzahed/codedna                    15d ago
