@@ -46,8 +46,8 @@ status     : building something cool... ▮
 
 <!--PROJECTS:START-->
 <table>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 3d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/update">update</a></b><br/><sub>Work in progress</sub><br/><sub>● HTML · 5d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_Frontend">ChatPilot_Frontend</a></b><br/><sub>Work in progress</sub><br/><sub>● TypeScript · 15d ago</sub></td></tr>
-  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_backend">ChatPilot_backend</a></b><br/><sub>Work in progress</sub><br/><sub>● Python · 15d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/codedna">codedna</a></b><br/><sub>A Living Intelligence Map of Software — Understand Your Code. See Its DNA.</sub><br/><sub>● Go · 21d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 24d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/portfolio">portfolio</a></b><br/><sub>Cinematic personal site</sub><br/><sub>● TypeScript · 4d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/update">update</a></b><br/><sub>Work in progress</sub><br/><sub>● HTML · 6d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_Frontend">ChatPilot_Frontend</a></b><br/><sub>Work in progress</sub><br/><sub>● TypeScript · 16d ago</sub></td></tr>
+  <tr><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/ChatPilot_backend">ChatPilot_backend</a></b><br/><sub>Work in progress</sub><br/><sub>● Python · 16d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/codedna">codedna</a></b><br/><sub>A Living Intelligence Map of Software — Understand Your Code. See Its DNA.</sub><br/><sub>● Go · 22d ago</sub></td><td valign="top" width="33%"><b>▸ <a href="https://github.com/0xzahed/0xzahed.github.io">0xzahed.github.io</a></b><br/><sub>Work in progress</sub><br/><sub>● — · 25d ago</sub></td></tr>
 </table>
 <!--PROJECTS:END-->
 
@@ -63,7 +63,7 @@ TypeScript   ██░░░░░░░░░░░░░░░░░░  10%
 HTML         █░░░░░░░░░░░░░░░░░░░   4%
 ```
 
-| **4,847** | **31** | **105** | **10** |
+| **4,848** | **32** | **105** | **10** |
 |:-:|:-:|:-:|:-:|
 | contributions | day streak | repos | followers |
 <!--STATS:END-->
@@ -83,7 +83,7 @@ HTML         █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--YEARLY:START-->
 ```text
-2026  ████████████████████████ 4,596
+2026  ████████████████████████ 4,597
 2025  █                          165
 2024  █                           56
 2023  █                           29
@@ -95,12 +95,12 @@ HTML         █░░░░░░░░░░░░░░░░░░░   4%
 
 <!--ACTIVITY:START-->
 ```text
-fork     django/django                      18h ago
-pr       anomalyco/opencode                 19h ago
-fork     anomalyco/opencode                 19h ago
-push     0xzahed/portfolio                  3d ago
-pr       jooydebnath/averqon                3d ago
-fork     jooydebnath/averqon                3d ago
+push     0xzahed/opencode                   1d ago
+fork     django/django                      1d ago
+pr       anomalyco/opencode                 1d ago
+fork     anomalyco/opencode                 1d ago
+push     0xzahed/portfolio                  4d ago
+pr       jooydebnath/averqon                4d ago
 ```
 <!--ACTIVITY:END-->
 
