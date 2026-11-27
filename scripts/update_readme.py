@@ -17,6 +17,8 @@ BLURBS = {
     "clinicq": "Clinic queue system",
     "restaruant": "Restaurant web app",
 }
+# Repos always shown first in the projects section, in this order.
+FEATURED = ["codedna", "ventox", "security-guard", "api-response-toolkit", "devtosoft", "clinicq"]
 NOT_LANGS = {"Makefile", "Jupyter Notebook", "Dockerfile", "Shell", "Batchfile", "Blade"}
 API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -113,7 +115,10 @@ def stats_block(user, repos, total, streak, langs):
 
 
 def projects_block(repos, n=6):
-    picked = [r for r in repos if not r["fork"] and not r["archived"] and r["name"] not in EXCLUDE][:n]
+    eligible = [r for r in repos if not r["fork"] and not r["archived"] and r["name"] not in EXCLUDE]
+    # Featured repos always come first (in order); remaining slots fill with recently pushed repos.
+    featured = [r for name in FEATURED for r in eligible if r["name"] == name]
+    picked = (featured + [r for r in eligible if r["name"] not in FEATURED])[:n]
     cells = []
     for r in picked:
         desc = BLURBS.get(r["name"]) or (r["description"] or "").strip() or "Work in progress"
